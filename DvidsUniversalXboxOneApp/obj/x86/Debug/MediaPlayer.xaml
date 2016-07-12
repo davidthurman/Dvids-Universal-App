@@ -1,0 +1,17 @@
+﻿<Page
+    x:Class="DvidsUniversalXboxOneApp.MediaPlayer"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:DvidsUniversalXboxOneApp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <MediaElement x:ConnectionId='1' x:Name="mediaPlayer" 
+              Source="http://static.dvidshub.net/media/video/1006/DOD_100483570/DOD_100483570-486x274-300k.mp4" 
+              AutoPlay="True"
+              AreTransportControlsEnabled="True"/>
+    </Grid>
+</Page>
+
