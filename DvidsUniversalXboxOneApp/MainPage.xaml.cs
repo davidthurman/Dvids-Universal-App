@@ -33,9 +33,13 @@ namespace DvidsUniversalXboxOneApp
             this.InitializeComponent();
         }
 
-        private async void showsButton(object sender, RoutedEventArgs e)
+        private void showsButton(object sender, RoutedEventArgs e)
         {
             contentFrame.Navigate(typeof(showsPage));          
+        }
+        private void militarySpotlightButton(object sender, RoutedEventArgs e)
+        {
+            contentFrame.Navigate(typeof(MilitarySpotlightPage));
         }
     }
 }

@@ -40,16 +40,35 @@ namespace DvidsUniversalXboxOneApp
         }
 
         protected override void OnNavigatedTo(NavigationEventArgs e)
-        { 
-            videoId = e.Parameter as string;
-            getUrl();
+        {
+            Dictionary<string, string> myDictionary = new Dictionary<string, string>();
+            myDictionary = e.Parameter as Dictionary<string, string>;
+            videoId = myDictionary["id"].ToString();
+            string type = myDictionary["type"].ToString();
+            Debug.WriteLine(type);
+            Debug.WriteLine(videoId);
+            getUrl(type);
         }
 
-        public async void getUrl()
+        public async void getUrl(string type)
         {
-            RootObjectUrl urlData = await MediaUrl.getUrl(videoId);
-            System.Uri myVid = new System.Uri(urlData.results.files[(urlData.results.files.Count - 1)].src);
-            mediaPlayer.Source = myVid;
+            switch (type)
+            {
+                case "podcast":
+                    break;
+                case "show":
+                    RootObjectUrl urlData = await MediaUrl.getUrl(videoId);
+                    System.Uri myVid = new System.Uri(urlData.results.files[(urlData.results.files.Count - 1)].src);
+                    mediaPlayer.Source = myVid;
+                    break;
+                case "newstream":
+                    break;
+                case "live":
+                    break;
+                case "dod":
+                    break;
+            }
+            
 
 
             return;

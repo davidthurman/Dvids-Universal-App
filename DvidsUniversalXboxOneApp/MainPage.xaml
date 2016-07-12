@@ -89,7 +89,7 @@
                             <Button Style="{StaticResource MenuButton}">Live</Button>
                             <Button Style="{StaticResource MenuButton}">NewsStream</Button>
                             <Button Style="{StaticResource MenuButton}" Click="showsButton">Shows</Button>
-                            <Button Style="{StaticResource MenuButton}">Military Spotlight</Button>
+                            <Button Style="{StaticResource MenuButton}" Click="militarySpotlightButton">Military Spotlight</Button>
                             <Button Style="{StaticResource MenuButton}">Search</Button>
                             <Button Style="{StaticResource MenuButton}">About</Button>
                         </StackPanel>

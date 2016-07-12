@@ -106,6 +106,11 @@
       <DependentUpon>MediaPlayer.xaml</DependentUpon>
     </Compile>
     <Compile Include="MediaUrl.cs" />
+    <Compile Include="MilitarySpotlightPage.xaml.cs">
+      <DependentUpon>MilitarySpotlightPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Podcast.cs" />
+    <Compile Include="PodcastEpisode.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Show.cs" />
     <Compile Include="showsPage.xaml.cs">
@@ -141,6 +146,10 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Include="MediaPlayer.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MilitarySpotlightPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

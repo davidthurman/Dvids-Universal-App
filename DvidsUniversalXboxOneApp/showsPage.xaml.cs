@@ -84,7 +84,10 @@ namespace DvidsUniversalXboxOneApp
         public void mediaPlayer(object sender, RoutedEventArgs e)
         {
             Button button = (Button)sender;
-            showsFrame.Navigate(typeof(MediaPlayer), ((String)button.Tag));
+            Dictionary<string, string> myDictionary = new Dictionary<string, string>();
+            myDictionary.Add("type", "show");
+            myDictionary.Add("id", ((String)button.Tag));
+            showsFrame.Navigate(typeof(MediaPlayer), myDictionary);
         }
     }
 }

@@ -1,11 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Roots >
   <Roots.PropertyPathNames>
+    <RootPropertyPathName Name="PodcastShowsXamlDataCollections" />
+    <RootPropertyPathName Name="id" />
+    <RootPropertyPathName Name="thumbnail" />
+    <RootPropertyPathName Name="PodcastEpisodeXamlDataCollections" />
+    <RootPropertyPathName Name="ButtonTag" />
+    <RootPropertyPathName Name="podcastThumbnails" />
     <RootPropertyPathName Name="EpisodeXamlDataCollections" />
     <RootPropertyPathName Name="EpisodeButtonTag" />
     <RootPropertyPathName Name="EpisodeThumbnails" />
     <RootPropertyPathName Name="XamlDataCollections" />
-    <RootPropertyPathName Name="ButtonTag" />
     <RootPropertyPathName Name="ShowThumbnails" />
   </Roots.PropertyPathNames>
   <Roots.RootTypes>
@@ -107,6 +112,7 @@
     <RootType FullName="Windows.UI.Xaml.Media.ImageBrush">
       <RootProperty Name="ImageSource" />
     </RootType>
+    <RootType FullName="DvidsUniversalXboxOneApp.MilitarySpotlightPage" />
     <RootType FullName="DvidsUniversalXboxOneApp.showsPage" />
   </Roots.RootTypes>
 </Roots>
