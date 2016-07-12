@@ -7,10 +7,17 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <Frame Background="Blue">
         <MediaElement x:Name="mediaPlayer" 
-              Source="http://static.dvidshub.net/media/video/1006/DOD_100483570/DOD_100483570-486x274-300k.mp4" 
-              AutoPlay="True"
-              AreTransportControlsEnabled="True"/>
-    </Grid>
+                      IsFullWindow="True"
+                      AutoPlay="True"
+                      Stretch="None"
+                        MinWidth="800"
+                      HorizontalAlignment="Stretch"
+                      VerticalAlignment="Stretch"
+
+                      AreTransportControlsEnabled="True"/>
+    </Frame>
+        
+
 </Page>

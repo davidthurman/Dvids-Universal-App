@@ -10,19 +10,19 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>7643cd1d-c665-4958-a409-23b714331b92</PackageIdentityName>
     <PackageIdentityPublisher>CN=David</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\David\documents\visual studio 2015\Projects\DvidsUniversalXboxOneApp\DvidsUniversalXboxOneApp\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\David\Documents\Visual Studio 2015\Projects\DvidsUniversalXboxOneApp\DvidsUniversalXboxOneApp\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType></RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\David\documents\visual studio 2015\Projects\DvidsUniversalXboxOneApp\DvidsUniversalXboxOneApp\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\David\Documents\Visual Studio 2015\Projects\DvidsUniversalXboxOneApp\DvidsUniversalXboxOneApp\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\David\documents\visual studio 2015\Projects\DvidsUniversalXboxOneApp\DvidsUniversalXboxOneApp\bin\x86\Debug\DvidsUniversalXboxOneApp.exe">
+    <AppxPackagedFile Include="C:\Users\David\Documents\Visual Studio 2015\Projects\DvidsUniversalXboxOneApp\DvidsUniversalXboxOneApp\bin\x86\Debug\DvidsUniversalXboxOneApp.exe">
       <PackagePath>entrypoint\DvidsUniversalXboxOneApp.exe</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\David\.nuget\packages\Microsoft.CSharp\4.0.0\lib\netcore50\Microsoft.CSharp.dll">
@@ -343,52 +343,55 @@
     <AppxPackagedFile Include="C:\Users\David\.nuget\packages\System.Xml.XmlSerializer\4.0.10\lib\netcore50\System.Xml.XmlSerializer.dll">
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\David\documents\visual studio 2015\Projects\DvidsUniversalXboxOneApp\DvidsUniversalXboxOneApp\Defense.jpg">
+    <AppxPackagedFile Include="C:\Users\David\Documents\Visual Studio 2015\Projects\DvidsUniversalXboxOneApp\DvidsUniversalXboxOneApp\Defense.jpg">
       <PackagePath>Defense.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\David\documents\visual studio 2015\Projects\DvidsUniversalXboxOneApp\DvidsUniversalXboxOneApp\DefenseTVTransparentLogo.png">
+    <AppxPackagedFile Include="C:\Users\David\Documents\Visual Studio 2015\Projects\DvidsUniversalXboxOneApp\DvidsUniversalXboxOneApp\DefenseTVTransparentLogo.png">
       <PackagePath>DefenseTVTransparentLogo.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\David\documents\visual studio 2015\Projects\DvidsUniversalXboxOneApp\DvidsUniversalXboxOneApp\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\David\Documents\Visual Studio 2015\Projects\DvidsUniversalXboxOneApp\DvidsUniversalXboxOneApp\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\David\documents\visual studio 2015\Projects\DvidsUniversalXboxOneApp\DvidsUniversalXboxOneApp\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\David\Documents\Visual Studio 2015\Projects\DvidsUniversalXboxOneApp\DvidsUniversalXboxOneApp\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\David\documents\visual studio 2015\Projects\DvidsUniversalXboxOneApp\DvidsUniversalXboxOneApp\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\David\Documents\Visual Studio 2015\Projects\DvidsUniversalXboxOneApp\DvidsUniversalXboxOneApp\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\David\documents\visual studio 2015\Projects\DvidsUniversalXboxOneApp\DvidsUniversalXboxOneApp\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\David\Documents\Visual Studio 2015\Projects\DvidsUniversalXboxOneApp\DvidsUniversalXboxOneApp\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\David\documents\visual studio 2015\Projects\DvidsUniversalXboxOneApp\DvidsUniversalXboxOneApp\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\David\Documents\Visual Studio 2015\Projects\DvidsUniversalXboxOneApp\DvidsUniversalXboxOneApp\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\David\documents\visual studio 2015\Projects\DvidsUniversalXboxOneApp\DvidsUniversalXboxOneApp\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\David\Documents\Visual Studio 2015\Projects\DvidsUniversalXboxOneApp\DvidsUniversalXboxOneApp\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\David\documents\visual studio 2015\Projects\DvidsUniversalXboxOneApp\DvidsUniversalXboxOneApp\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\David\Documents\Visual Studio 2015\Projects\DvidsUniversalXboxOneApp\DvidsUniversalXboxOneApp\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\David\documents\visual studio 2015\Projects\DvidsUniversalXboxOneApp\DvidsUniversalXboxOneApp\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\David\Documents\Visual Studio 2015\Projects\DvidsUniversalXboxOneApp\DvidsUniversalXboxOneApp\SplashPage.png">
+      <PackagePath>SplashPage.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\David\Documents\Visual Studio 2015\Projects\DvidsUniversalXboxOneApp\DvidsUniversalXboxOneApp\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\David\documents\visual studio 2015\Projects\DvidsUniversalXboxOneApp\DvidsUniversalXboxOneApp\bin\x86\Debug\DvidsUniversalXboxOneApp.xr.xml">
+    <AppxPackagedFile Include="C:\Users\David\Documents\Visual Studio 2015\Projects\DvidsUniversalXboxOneApp\DvidsUniversalXboxOneApp\bin\x86\Debug\DvidsUniversalXboxOneApp.xr.xml">
       <PackagePath>DvidsUniversalXboxOneApp.xr.xml</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\David\documents\visual studio 2015\Projects\DvidsUniversalXboxOneApp\DvidsUniversalXboxOneApp\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\David\Documents\Visual Studio 2015\Projects\DvidsUniversalXboxOneApp\DvidsUniversalXboxOneApp\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\David\documents\visual studio 2015\Projects\DvidsUniversalXboxOneApp\DvidsUniversalXboxOneApp\bin\x86\Debug\Core\DvidsUniversalXboxOneApp.exe">
+    <AppxPackagedFile Include="C:\Users\David\Documents\Visual Studio 2015\Projects\DvidsUniversalXboxOneApp\DvidsUniversalXboxOneApp\bin\x86\Debug\Core\DvidsUniversalXboxOneApp.exe">
       <PackagePath>DvidsUniversalXboxOneApp.exe</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

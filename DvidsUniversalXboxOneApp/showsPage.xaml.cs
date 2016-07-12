@@ -47,8 +47,6 @@ namespace DvidsUniversalXboxOneApp
                     ShowThumbnails = showsTest.results[x].thumbnail,
                     ButtonTag = showsTest.results[x].id
                 });
-                Debug.WriteLine(showsTest.results[x].id);
-                Debug.WriteLine(XamlDataCollections[0].ShowThumbnails);
             }
 
             showsGrid.ItemsSource = XamlDataCollections;
@@ -62,7 +60,6 @@ namespace DvidsUniversalXboxOneApp
             RootObjectEpisodes episodes = await Episode.getEpisodes((String)button.Tag);
             for (int x = 0; x < episodes.results.Count; x++)
             {
-                Debug.WriteLine(episodes.results[x].thumbnail);
                 EpisodeXamlDataCollections.Add(new EpisodeXamlData()
                 {
                     EpisodeThumbnails = episodes.results[x].thumbnail,
@@ -86,10 +83,8 @@ namespace DvidsUniversalXboxOneApp
 
         public void mediaPlayer(object sender, RoutedEventArgs e)
         {
-            
-
-            //  var applicationView =  Windows.UI.ViewManagement.ApplicationView.GetForCurrentView();
-            //applicationView.TryEnterFullScreenMode();
+            Button button = (Button)sender;
+            showsFrame.Navigate(typeof(MediaPlayer), ((String)button.Tag));
         }
     }
 }

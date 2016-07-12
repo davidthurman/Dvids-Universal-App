@@ -74,46 +74,7 @@
                 <SplitView.Content>
                     <Frame x:Name="contentFrame">
                         <StackPanel Background="#404040">
-                            <ScrollViewer HorizontalScrollBarVisibility="Auto" x:Name="ShowMenuScroll" VerticalScrollBarVisibility="Disabled">
-                                <!-- Stack Panel for List of Shows -->
-                                <StackPanel Orientation="Horizontal">
-                                    <Grid>
-                                        <GridView x:Name="showsGrid" ItemsSource="{Binding XamlDataCollections}">
-                                            <GridView.ItemTemplate>
-                                                <DataTemplate>
-                                                    <Button  Click="getEpisodes" Tag="{Binding ButtonTag}">
-                                                        <Grid Height="300" Width="300" BorderThickness="3">
-                                                            <Grid.Background>
-                                                                <ImageBrush ImageSource="{Binding ShowThumbnails}"/>
-                                                            </Grid.Background>
-                                                        </Grid>
-                                                    </Button>
-                                                </DataTemplate>
-                                            </GridView.ItemTemplate>
-                                        </GridView>
-                                    </Grid>
-                                </StackPanel>
-                            </ScrollViewer>
-                            <!-- List of Episodes -->
-                            <ScrollViewer VerticalScrollBarVisibility="Visible">
-                                <StackPanel>
-                                    <Grid>
-                                        <GridView x:Name="episodesGrid" ItemsSource="{Binding EpisodeXamlDataCollections}">
-                                            <GridView.ItemTemplate>
-                                                <DataTemplate>
-                                                    <Button  Click="mediaPlayer" Tag="{Binding EpisodeButtonTag}">
-                                                        <Grid Height="125" Width="125" BorderThickness="3">
-                                                            <Grid.Background>
-                                                                <ImageBrush ImageSource="{Binding EpisodeThumbnails}"/>
-                                                            </Grid.Background>
-                                                        </Grid>
-                                                    </Button>
-                                                </DataTemplate>
-                                            </GridView.ItemTemplate>
-                                        </GridView>
-                                    </Grid>
-                                </StackPanel>
-                            </ScrollViewer>
+                            <Image Source="SplashPage.png"/>
                         </StackPanel>
                     </Frame>
                 </SplitView.Content>

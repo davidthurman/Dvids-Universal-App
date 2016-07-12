@@ -74,46 +74,7 @@
                 <SplitView.Content>
                     <Frame x:ConnectionId='4' x:Name="contentFrame">
                         <StackPanel Background="#404040">
-                            <ScrollViewer x:ConnectionId='5' HorizontalScrollBarVisibility="Auto" x:Name="ShowMenuScroll" VerticalScrollBarVisibility="Disabled">
-                                <!-- Stack Panel for List of Shows -->
-                                <StackPanel Orientation="Horizontal">
-                                    <Grid>
-                                        <GridView x:ConnectionId='8' x:Name="showsGrid" ItemsSource="{Binding XamlDataCollections}">
-                                            <GridView.ItemTemplate>
-                                                <DataTemplate>
-                                                    <Button x:ConnectionId='9'                      Tag="{Binding ButtonTag}">
-                                                        <Grid Height="300" Width="300" BorderThickness="3">
-                                                            <Grid.Background>
-                                                                <ImageBrush ImageSource="{Binding ShowThumbnails}"/>
-                                                            </Grid.Background>
-                                                        </Grid>
-                                                    </Button>
-                                                </DataTemplate>
-                                            </GridView.ItemTemplate>
-                                        </GridView>
-                                    </Grid>
-                                </StackPanel>
-                            </ScrollViewer>
-                            <!-- List of Episodes -->
-                            <ScrollViewer VerticalScrollBarVisibility="Visible">
-                                <StackPanel>
-                                    <Grid>
-                                        <GridView x:ConnectionId='6' x:Name="episodesGrid" ItemsSource="{Binding EpisodeXamlDataCollections}">
-                                            <GridView.ItemTemplate>
-                                                <DataTemplate>
-                                                    <Button x:ConnectionId='7'                      Tag="{Binding EpisodeButtonTag}">
-                                                        <Grid Height="125" Width="125" BorderThickness="3">
-                                                            <Grid.Background>
-                                                                <ImageBrush ImageSource="{Binding EpisodeThumbnails}"/>
-                                                            </Grid.Background>
-                                                        </Grid>
-                                                    </Button>
-                                                </DataTemplate>
-                                            </GridView.ItemTemplate>
-                                        </GridView>
-                                    </Grid>
-                                </StackPanel>
-                            </ScrollViewer>
+                            <Image Source="SplashPage.png"/>
                         </StackPanel>
                     </Frame>
                 </SplitView.Content>
@@ -127,7 +88,7 @@
                             <Button Style="{StaticResource MenuButton}">DoD Warrior Games</Button>
                             <Button Style="{StaticResource MenuButton}">Live</Button>
                             <Button Style="{StaticResource MenuButton}">NewsStream</Button>
-                            <Button x:ConnectionId='10' Style="{StaticResource MenuButton}"                    >Shows</Button>
+                            <Button x:ConnectionId='5' Style="{StaticResource MenuButton}"                    >Shows</Button>
                             <Button Style="{StaticResource MenuButton}">Military Spotlight</Button>
                             <Button Style="{StaticResource MenuButton}">Search</Button>
                             <Button Style="{StaticResource MenuButton}">About</Button>
