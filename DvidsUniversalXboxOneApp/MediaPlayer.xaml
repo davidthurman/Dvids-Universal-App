@@ -7,17 +7,13 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Frame Background="Blue">
+    <Grid>
         <MediaElement x:Name="mediaPlayer" 
                       IsFullWindow="True"
                       AutoPlay="True"
-                      Stretch="None"
-                        MinWidth="800"
-                      HorizontalAlignment="Stretch"
-                      VerticalAlignment="Stretch"
-
+                      Stretch="UniformToFill"
                       AreTransportControlsEnabled="True"/>
-    </Frame>
+    </Grid>
         
 
 </Page>

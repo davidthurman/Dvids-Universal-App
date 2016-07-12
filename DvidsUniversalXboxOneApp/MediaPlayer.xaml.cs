@@ -48,8 +48,9 @@ namespace DvidsUniversalXboxOneApp
         public async void getUrl()
         {
             RootObjectUrl urlData = await MediaUrl.getUrl(videoId);
-            System.Uri myVid = new System.Uri(urlData.results.files[0].src);
+            System.Uri myVid = new System.Uri(urlData.results.files[(urlData.results.files.Count - 1)].src);
             mediaPlayer.Source = myVid;
+
 
             return;
         }

@@ -62,7 +62,6 @@
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Frame">
       <RootProperty Name="Content" />
-      <RootProperty Name="Background" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.SplitView">
       <RootProperty Name="IsPaneOpen" />
@@ -89,9 +88,6 @@
       <RootProperty Name="IsFullWindow" />
       <RootProperty Name="AutoPlay" />
       <RootProperty Name="Stretch" />
-      <RootProperty Name="MinWidth" />
-      <RootProperty Name="HorizontalAlignment" />
-      <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="AreTransportControlsEnabled" />
     </RootType>
     <RootType FullName="DvidsUniversalXboxOneApp.MediaPlayer" />
