@@ -42,7 +42,8 @@ namespace DvidsUniversalXboxOneApp
                 {
                     LiveThumbnails = podcastsList.results[x].thumbnail.url,
                     ButtonTag = podcastsList.results[x].id,
-                    LiveDateStart = podcastsList.results[x].begin.Substring(0, 10)
+                    LiveDateStart = podcastsList.results[x].begin.Substring(0, 10),
+                    LiveDescription = podcastsList.results[x].description
                 });
             }
 
@@ -53,6 +54,7 @@ namespace DvidsUniversalXboxOneApp
             public string LiveThumbnails { get; set; }
             public string ButtonTag { get; set; }
             public string LiveDateStart { get; set; }
+            public string LiveDescription { get; set; }
         }
 
         public void mediaPlayer(object sender, RoutedEventArgs e)

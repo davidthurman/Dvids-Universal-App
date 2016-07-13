@@ -28,13 +28,13 @@
     <AppXManifest Include="C:\Users\David\Documents\Visual Studio 2015\Projects\DvidsUniversalXboxOneApp\DvidsUniversalXboxOneApp\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-07-13T14:23:37.809</Modified>
+      <Modified>2016-07-13T18:55:56.456</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\David\Documents\Visual Studio 2015\Projects\DvidsUniversalXboxOneApp\DvidsUniversalXboxOneApp\bin\x86\Debug\DvidsUniversalXboxOneApp.exe">
       <PackagePath>entrypoint\DvidsUniversalXboxOneApp.exe</PackagePath>
-      <Modified>2016-07-13T14:23:37.147</Modified>
+      <Modified>2016-07-13T18:55:55.791</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\David\.nuget\packages\Microsoft.CSharp\4.0.0\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -460,6 +460,18 @@
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
       <Modified>2015-07-23T03:11:12.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\David\Documents\Visual Studio 2015\Projects\DvidsUniversalXboxOneApp\DvidsUniversalXboxOneApp\Assets\bg1.jpg">
+      <PackagePath>Assets\bg1.jpg</PackagePath>
+      <Modified>2016-07-13T16:55:23.170</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\David\Documents\Visual Studio 2015\Projects\DvidsUniversalXboxOneApp\DvidsUniversalXboxOneApp\Assets\bg2.jpg">
+      <PackagePath>Assets\bg2.jpg</PackagePath>
+      <Modified>2016-07-13T16:55:23.177</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\David\Documents\Visual Studio 2015\Projects\DvidsUniversalXboxOneApp\DvidsUniversalXboxOneApp\Assets\bg3.jpg">
+      <PackagePath>Assets\bg3.jpg</PackagePath>
+      <Modified>2016-07-13T16:57:54.259</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\David\Documents\Visual Studio 2015\Projects\DvidsUniversalXboxOneApp\DvidsUniversalXboxOneApp\Defense.jpg">
       <PackagePath>Defense.jpg</PackagePath>
       <Modified>2016-07-08T14:32:36.344</Modified>
@@ -512,7 +524,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\David\Documents\Visual Studio 2015\Projects\DvidsUniversalXboxOneApp\DvidsUniversalXboxOneApp\bin\x86\Debug\DvidsUniversalXboxOneApp.xr.xml">
       <PackagePath>DvidsUniversalXboxOneApp.xr.xml</PackagePath>
-      <Modified>2016-07-13T13:05:57.071</Modified>
+      <Modified>2016-07-13T18:55:55.546</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -520,11 +532,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\David\Documents\Visual Studio 2015\Projects\DvidsUniversalXboxOneApp\DvidsUniversalXboxOneApp\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2016-07-13T14:23:37.585</Modified>
+      <Modified>2016-07-13T18:55:56.225</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\David\Documents\Visual Studio 2015\Projects\DvidsUniversalXboxOneApp\DvidsUniversalXboxOneApp\bin\x86\Debug\Core\DvidsUniversalXboxOneApp.exe">
       <PackagePath>DvidsUniversalXboxOneApp.exe</PackagePath>
-      <Modified>2016-07-13T14:23:37.806</Modified>
+      <Modified>2016-07-13T18:55:56.452</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

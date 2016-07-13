@@ -132,7 +132,7 @@ namespace DvidsUniversalXboxOneApp.DvidsUniversalXboxOneApp_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[32];
+            _typeNameTable = new string[43];
             _typeNameTable[0] = "DvidsUniversalXboxOneApp.LivePage";
             _typeNameTable[1] = "Windows.UI.Xaml.Controls.Page";
             _typeNameTable[2] = "Windows.UI.Xaml.Controls.UserControl";
@@ -158,15 +158,26 @@ namespace DvidsUniversalXboxOneApp.DvidsUniversalXboxOneApp_XamlTypeInfo
             _typeNameTable[22] = "System.Collections.ObjectModel.ObservableCollection`1<DvidsUniversalXboxOneApp.MilitarySpotlightPage.PodcastEpisodeXamlData>";
             _typeNameTable[23] = "System.Collections.ObjectModel.Collection`1<DvidsUniversalXboxOneApp.MilitarySpotlightPage.PodcastEpisodeXamlData>";
             _typeNameTable[24] = "DvidsUniversalXboxOneApp.MilitarySpotlightPage.PodcastEpisodeXamlData";
-            _typeNameTable[25] = "DvidsUniversalXboxOneApp.showsPage";
-            _typeNameTable[26] = "System.Collections.ObjectModel.ObservableCollection`1<DvidsUniversalXboxOneApp.showsPage.XamlData>";
-            _typeNameTable[27] = "System.Collections.ObjectModel.Collection`1<DvidsUniversalXboxOneApp.showsPage.XamlData>";
-            _typeNameTable[28] = "DvidsUniversalXboxOneApp.showsPage.XamlData";
-            _typeNameTable[29] = "System.Collections.ObjectModel.ObservableCollection`1<DvidsUniversalXboxOneApp.showsPage.EpisodeXamlData>";
-            _typeNameTable[30] = "System.Collections.ObjectModel.Collection`1<DvidsUniversalXboxOneApp.showsPage.EpisodeXamlData>";
-            _typeNameTable[31] = "DvidsUniversalXboxOneApp.showsPage.EpisodeXamlData";
+            _typeNameTable[25] = "DvidsUniversalXboxOneApp.NewsPage";
+            _typeNameTable[26] = "System.Collections.ObjectModel.ObservableCollection`1<DvidsUniversalXboxOneApp.NewsPage.NewsSubjectsXamlData>";
+            _typeNameTable[27] = "System.Collections.ObjectModel.Collection`1<DvidsUniversalXboxOneApp.NewsPage.NewsSubjectsXamlData>";
+            _typeNameTable[28] = "DvidsUniversalXboxOneApp.NewsPage.NewsSubjectsXamlData";
+            _typeNameTable[29] = "System.Collections.ObjectModel.ObservableCollection`1<DvidsUniversalXboxOneApp.NewsPage.NewsEpisodesXamlData>";
+            _typeNameTable[30] = "System.Collections.ObjectModel.Collection`1<DvidsUniversalXboxOneApp.NewsPage.NewsEpisodesXamlData>";
+            _typeNameTable[31] = "DvidsUniversalXboxOneApp.NewsPage.NewsEpisodesXamlData";
+            _typeNameTable[32] = "DvidsUniversalXboxOneApp.SearchPage";
+            _typeNameTable[33] = "System.Collections.ObjectModel.ObservableCollection`1<DvidsUniversalXboxOneApp.SearchPage.SearchXamlData>";
+            _typeNameTable[34] = "System.Collections.ObjectModel.Collection`1<DvidsUniversalXboxOneApp.SearchPage.SearchXamlData>";
+            _typeNameTable[35] = "DvidsUniversalXboxOneApp.SearchPage.SearchXamlData";
+            _typeNameTable[36] = "DvidsUniversalXboxOneApp.showsPage";
+            _typeNameTable[37] = "System.Collections.ObjectModel.ObservableCollection`1<DvidsUniversalXboxOneApp.showsPage.XamlData>";
+            _typeNameTable[38] = "System.Collections.ObjectModel.Collection`1<DvidsUniversalXboxOneApp.showsPage.XamlData>";
+            _typeNameTable[39] = "DvidsUniversalXboxOneApp.showsPage.XamlData";
+            _typeNameTable[40] = "System.Collections.ObjectModel.ObservableCollection`1<DvidsUniversalXboxOneApp.showsPage.EpisodeXamlData>";
+            _typeNameTable[41] = "System.Collections.ObjectModel.Collection`1<DvidsUniversalXboxOneApp.showsPage.EpisodeXamlData>";
+            _typeNameTable[42] = "DvidsUniversalXboxOneApp.showsPage.EpisodeXamlData";
 
-            _typeTable = new global::System.Type[32];
+            _typeTable = new global::System.Type[43];
             _typeTable[0] = typeof(global::DvidsUniversalXboxOneApp.LivePage);
             _typeTable[1] = typeof(global::Windows.UI.Xaml.Controls.Page);
             _typeTable[2] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
@@ -192,13 +203,24 @@ namespace DvidsUniversalXboxOneApp.DvidsUniversalXboxOneApp_XamlTypeInfo
             _typeTable[22] = typeof(global::System.Collections.ObjectModel.ObservableCollection<global::DvidsUniversalXboxOneApp.MilitarySpotlightPage.PodcastEpisodeXamlData>);
             _typeTable[23] = typeof(global::System.Collections.ObjectModel.Collection<global::DvidsUniversalXboxOneApp.MilitarySpotlightPage.PodcastEpisodeXamlData>);
             _typeTable[24] = typeof(global::DvidsUniversalXboxOneApp.MilitarySpotlightPage.PodcastEpisodeXamlData);
-            _typeTable[25] = typeof(global::DvidsUniversalXboxOneApp.showsPage);
-            _typeTable[26] = typeof(global::System.Collections.ObjectModel.ObservableCollection<global::DvidsUniversalXboxOneApp.showsPage.XamlData>);
-            _typeTable[27] = typeof(global::System.Collections.ObjectModel.Collection<global::DvidsUniversalXboxOneApp.showsPage.XamlData>);
-            _typeTable[28] = typeof(global::DvidsUniversalXboxOneApp.showsPage.XamlData);
-            _typeTable[29] = typeof(global::System.Collections.ObjectModel.ObservableCollection<global::DvidsUniversalXboxOneApp.showsPage.EpisodeXamlData>);
-            _typeTable[30] = typeof(global::System.Collections.ObjectModel.Collection<global::DvidsUniversalXboxOneApp.showsPage.EpisodeXamlData>);
-            _typeTable[31] = typeof(global::DvidsUniversalXboxOneApp.showsPage.EpisodeXamlData);
+            _typeTable[25] = typeof(global::DvidsUniversalXboxOneApp.NewsPage);
+            _typeTable[26] = typeof(global::System.Collections.ObjectModel.ObservableCollection<global::DvidsUniversalXboxOneApp.NewsPage.NewsSubjectsXamlData>);
+            _typeTable[27] = typeof(global::System.Collections.ObjectModel.Collection<global::DvidsUniversalXboxOneApp.NewsPage.NewsSubjectsXamlData>);
+            _typeTable[28] = typeof(global::DvidsUniversalXboxOneApp.NewsPage.NewsSubjectsXamlData);
+            _typeTable[29] = typeof(global::System.Collections.ObjectModel.ObservableCollection<global::DvidsUniversalXboxOneApp.NewsPage.NewsEpisodesXamlData>);
+            _typeTable[30] = typeof(global::System.Collections.ObjectModel.Collection<global::DvidsUniversalXboxOneApp.NewsPage.NewsEpisodesXamlData>);
+            _typeTable[31] = typeof(global::DvidsUniversalXboxOneApp.NewsPage.NewsEpisodesXamlData);
+            _typeTable[32] = typeof(global::DvidsUniversalXboxOneApp.SearchPage);
+            _typeTable[33] = typeof(global::System.Collections.ObjectModel.ObservableCollection<global::DvidsUniversalXboxOneApp.SearchPage.SearchXamlData>);
+            _typeTable[34] = typeof(global::System.Collections.ObjectModel.Collection<global::DvidsUniversalXboxOneApp.SearchPage.SearchXamlData>);
+            _typeTable[35] = typeof(global::DvidsUniversalXboxOneApp.SearchPage.SearchXamlData);
+            _typeTable[36] = typeof(global::DvidsUniversalXboxOneApp.showsPage);
+            _typeTable[37] = typeof(global::System.Collections.ObjectModel.ObservableCollection<global::DvidsUniversalXboxOneApp.showsPage.XamlData>);
+            _typeTable[38] = typeof(global::System.Collections.ObjectModel.Collection<global::DvidsUniversalXboxOneApp.showsPage.XamlData>);
+            _typeTable[39] = typeof(global::DvidsUniversalXboxOneApp.showsPage.XamlData);
+            _typeTable[40] = typeof(global::System.Collections.ObjectModel.ObservableCollection<global::DvidsUniversalXboxOneApp.showsPage.EpisodeXamlData>);
+            _typeTable[41] = typeof(global::System.Collections.ObjectModel.Collection<global::DvidsUniversalXboxOneApp.showsPage.EpisodeXamlData>);
+            _typeTable[42] = typeof(global::DvidsUniversalXboxOneApp.showsPage.EpisodeXamlData);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -248,11 +270,19 @@ namespace DvidsUniversalXboxOneApp.DvidsUniversalXboxOneApp_XamlTypeInfo
         private object Activate_20_Collection() { return new global::System.Collections.ObjectModel.Collection<global::DvidsUniversalXboxOneApp.MilitarySpotlightPage.PodcastShowsXamlData>(); }
         private object Activate_22_ObservableCollection() { return new global::System.Collections.ObjectModel.ObservableCollection<global::DvidsUniversalXboxOneApp.MilitarySpotlightPage.PodcastEpisodeXamlData>(); }
         private object Activate_23_Collection() { return new global::System.Collections.ObjectModel.Collection<global::DvidsUniversalXboxOneApp.MilitarySpotlightPage.PodcastEpisodeXamlData>(); }
-        private object Activate_25_showsPage() { return new global::DvidsUniversalXboxOneApp.showsPage(); }
-        private object Activate_26_ObservableCollection() { return new global::System.Collections.ObjectModel.ObservableCollection<global::DvidsUniversalXboxOneApp.showsPage.XamlData>(); }
-        private object Activate_27_Collection() { return new global::System.Collections.ObjectModel.Collection<global::DvidsUniversalXboxOneApp.showsPage.XamlData>(); }
-        private object Activate_29_ObservableCollection() { return new global::System.Collections.ObjectModel.ObservableCollection<global::DvidsUniversalXboxOneApp.showsPage.EpisodeXamlData>(); }
-        private object Activate_30_Collection() { return new global::System.Collections.ObjectModel.Collection<global::DvidsUniversalXboxOneApp.showsPage.EpisodeXamlData>(); }
+        private object Activate_25_NewsPage() { return new global::DvidsUniversalXboxOneApp.NewsPage(); }
+        private object Activate_26_ObservableCollection() { return new global::System.Collections.ObjectModel.ObservableCollection<global::DvidsUniversalXboxOneApp.NewsPage.NewsSubjectsXamlData>(); }
+        private object Activate_27_Collection() { return new global::System.Collections.ObjectModel.Collection<global::DvidsUniversalXboxOneApp.NewsPage.NewsSubjectsXamlData>(); }
+        private object Activate_29_ObservableCollection() { return new global::System.Collections.ObjectModel.ObservableCollection<global::DvidsUniversalXboxOneApp.NewsPage.NewsEpisodesXamlData>(); }
+        private object Activate_30_Collection() { return new global::System.Collections.ObjectModel.Collection<global::DvidsUniversalXboxOneApp.NewsPage.NewsEpisodesXamlData>(); }
+        private object Activate_32_SearchPage() { return new global::DvidsUniversalXboxOneApp.SearchPage(); }
+        private object Activate_33_ObservableCollection() { return new global::System.Collections.ObjectModel.ObservableCollection<global::DvidsUniversalXboxOneApp.SearchPage.SearchXamlData>(); }
+        private object Activate_34_Collection() { return new global::System.Collections.ObjectModel.Collection<global::DvidsUniversalXboxOneApp.SearchPage.SearchXamlData>(); }
+        private object Activate_36_showsPage() { return new global::DvidsUniversalXboxOneApp.showsPage(); }
+        private object Activate_37_ObservableCollection() { return new global::System.Collections.ObjectModel.ObservableCollection<global::DvidsUniversalXboxOneApp.showsPage.XamlData>(); }
+        private object Activate_38_Collection() { return new global::System.Collections.ObjectModel.Collection<global::DvidsUniversalXboxOneApp.showsPage.XamlData>(); }
+        private object Activate_40_ObservableCollection() { return new global::System.Collections.ObjectModel.ObservableCollection<global::DvidsUniversalXboxOneApp.showsPage.EpisodeXamlData>(); }
+        private object Activate_41_Collection() { return new global::System.Collections.ObjectModel.Collection<global::DvidsUniversalXboxOneApp.showsPage.EpisodeXamlData>(); }
         private void VectorAdd_3_ObservableCollection(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::DvidsUniversalXboxOneApp.LivePage.LiveXamlData>)instance;
@@ -315,23 +345,59 @@ namespace DvidsUniversalXboxOneApp.DvidsUniversalXboxOneApp_XamlTypeInfo
         }
         private void VectorAdd_26_ObservableCollection(object instance, object item)
         {
-            var collection = (global::System.Collections.Generic.ICollection<global::DvidsUniversalXboxOneApp.showsPage.XamlData>)instance;
-            var newItem = (global::DvidsUniversalXboxOneApp.showsPage.XamlData)item;
+            var collection = (global::System.Collections.Generic.ICollection<global::DvidsUniversalXboxOneApp.NewsPage.NewsSubjectsXamlData>)instance;
+            var newItem = (global::DvidsUniversalXboxOneApp.NewsPage.NewsSubjectsXamlData)item;
             collection.Add(newItem);
         }
         private void VectorAdd_27_Collection(object instance, object item)
+        {
+            var collection = (global::System.Collections.Generic.ICollection<global::DvidsUniversalXboxOneApp.NewsPage.NewsSubjectsXamlData>)instance;
+            var newItem = (global::DvidsUniversalXboxOneApp.NewsPage.NewsSubjectsXamlData)item;
+            collection.Add(newItem);
+        }
+        private void VectorAdd_29_ObservableCollection(object instance, object item)
+        {
+            var collection = (global::System.Collections.Generic.ICollection<global::DvidsUniversalXboxOneApp.NewsPage.NewsEpisodesXamlData>)instance;
+            var newItem = (global::DvidsUniversalXboxOneApp.NewsPage.NewsEpisodesXamlData)item;
+            collection.Add(newItem);
+        }
+        private void VectorAdd_30_Collection(object instance, object item)
+        {
+            var collection = (global::System.Collections.Generic.ICollection<global::DvidsUniversalXboxOneApp.NewsPage.NewsEpisodesXamlData>)instance;
+            var newItem = (global::DvidsUniversalXboxOneApp.NewsPage.NewsEpisodesXamlData)item;
+            collection.Add(newItem);
+        }
+        private void VectorAdd_33_ObservableCollection(object instance, object item)
+        {
+            var collection = (global::System.Collections.Generic.ICollection<global::DvidsUniversalXboxOneApp.SearchPage.SearchXamlData>)instance;
+            var newItem = (global::DvidsUniversalXboxOneApp.SearchPage.SearchXamlData)item;
+            collection.Add(newItem);
+        }
+        private void VectorAdd_34_Collection(object instance, object item)
+        {
+            var collection = (global::System.Collections.Generic.ICollection<global::DvidsUniversalXboxOneApp.SearchPage.SearchXamlData>)instance;
+            var newItem = (global::DvidsUniversalXboxOneApp.SearchPage.SearchXamlData)item;
+            collection.Add(newItem);
+        }
+        private void VectorAdd_37_ObservableCollection(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::DvidsUniversalXboxOneApp.showsPage.XamlData>)instance;
             var newItem = (global::DvidsUniversalXboxOneApp.showsPage.XamlData)item;
             collection.Add(newItem);
         }
-        private void VectorAdd_29_ObservableCollection(object instance, object item)
+        private void VectorAdd_38_Collection(object instance, object item)
+        {
+            var collection = (global::System.Collections.Generic.ICollection<global::DvidsUniversalXboxOneApp.showsPage.XamlData>)instance;
+            var newItem = (global::DvidsUniversalXboxOneApp.showsPage.XamlData)item;
+            collection.Add(newItem);
+        }
+        private void VectorAdd_40_ObservableCollection(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::DvidsUniversalXboxOneApp.showsPage.EpisodeXamlData>)instance;
             var newItem = (global::DvidsUniversalXboxOneApp.showsPage.EpisodeXamlData)item;
             collection.Add(newItem);
         }
-        private void VectorAdd_30_Collection(object instance, object item)
+        private void VectorAdd_41_Collection(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::DvidsUniversalXboxOneApp.showsPage.EpisodeXamlData>)instance;
             var newItem = (global::DvidsUniversalXboxOneApp.showsPage.EpisodeXamlData)item;
@@ -387,6 +453,7 @@ namespace DvidsUniversalXboxOneApp.DvidsUniversalXboxOneApp_XamlTypeInfo
                 userType.AddMemberName("LiveThumbnails");
                 userType.AddMemberName("ButtonTag");
                 userType.AddMemberName("LiveDateStart");
+                userType.AddMemberName("LiveDescription");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
@@ -521,30 +588,113 @@ namespace DvidsUniversalXboxOneApp.DvidsUniversalXboxOneApp_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 25:   //  DvidsUniversalXboxOneApp.showsPage
+            case 25:   //  DvidsUniversalXboxOneApp.NewsPage
                 userType = new global::DvidsUniversalXboxOneApp.DvidsUniversalXboxOneApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_25_showsPage;
-                userType.AddMemberName("XamlDataCollections");
-                userType.AddMemberName("EpisodeXamlDataCollections");
+                userType.Activator = Activate_25_NewsPage;
+                userType.AddMemberName("NewsSubjectsXamlDataCollections");
+                userType.AddMemberName("NewsEpisodeXamlDataCollections");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 26:   //  System.Collections.ObjectModel.ObservableCollection`1<DvidsUniversalXboxOneApp.showsPage.XamlData>
-                userType = new global::DvidsUniversalXboxOneApp.DvidsUniversalXboxOneApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Collections.ObjectModel.Collection`1<DvidsUniversalXboxOneApp.showsPage.XamlData>"));
+            case 26:   //  System.Collections.ObjectModel.ObservableCollection`1<DvidsUniversalXboxOneApp.NewsPage.NewsSubjectsXamlData>
+                userType = new global::DvidsUniversalXboxOneApp.DvidsUniversalXboxOneApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Collections.ObjectModel.Collection`1<DvidsUniversalXboxOneApp.NewsPage.NewsSubjectsXamlData>"));
                 userType.CollectionAdd = VectorAdd_26_ObservableCollection;
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 27:   //  System.Collections.ObjectModel.Collection`1<DvidsUniversalXboxOneApp.showsPage.XamlData>
+            case 27:   //  System.Collections.ObjectModel.Collection`1<DvidsUniversalXboxOneApp.NewsPage.NewsSubjectsXamlData>
                 userType = new global::DvidsUniversalXboxOneApp.DvidsUniversalXboxOneApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
                 userType.Activator = Activate_27_Collection;
                 userType.CollectionAdd = VectorAdd_27_Collection;
                 xamlType = userType;
                 break;
 
-            case 28:   //  DvidsUniversalXboxOneApp.showsPage.XamlData
+            case 28:   //  DvidsUniversalXboxOneApp.NewsPage.NewsSubjectsXamlData
+                userType = new global::DvidsUniversalXboxOneApp.DvidsUniversalXboxOneApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType.AddMemberName("SubjectTitle");
+                userType.AddMemberName("ButtonTag");
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 29:   //  System.Collections.ObjectModel.ObservableCollection`1<DvidsUniversalXboxOneApp.NewsPage.NewsEpisodesXamlData>
+                userType = new global::DvidsUniversalXboxOneApp.DvidsUniversalXboxOneApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Collections.ObjectModel.Collection`1<DvidsUniversalXboxOneApp.NewsPage.NewsEpisodesXamlData>"));
+                userType.CollectionAdd = VectorAdd_29_ObservableCollection;
+                userType.SetIsReturnTypeStub();
+                xamlType = userType;
+                break;
+
+            case 30:   //  System.Collections.ObjectModel.Collection`1<DvidsUniversalXboxOneApp.NewsPage.NewsEpisodesXamlData>
+                userType = new global::DvidsUniversalXboxOneApp.DvidsUniversalXboxOneApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType.Activator = Activate_30_Collection;
+                userType.CollectionAdd = VectorAdd_30_Collection;
+                xamlType = userType;
+                break;
+
+            case 31:   //  DvidsUniversalXboxOneApp.NewsPage.NewsEpisodesXamlData
+                userType = new global::DvidsUniversalXboxOneApp.DvidsUniversalXboxOneApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType.AddMemberName("EpisodeThumbnails");
+                userType.AddMemberName("EpisodeButtonTag");
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 32:   //  DvidsUniversalXboxOneApp.SearchPage
+                userType = new global::DvidsUniversalXboxOneApp.DvidsUniversalXboxOneApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_32_SearchPage;
+                userType.AddMemberName("SearchXamlDataCollections");
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 33:   //  System.Collections.ObjectModel.ObservableCollection`1<DvidsUniversalXboxOneApp.SearchPage.SearchXamlData>
+                userType = new global::DvidsUniversalXboxOneApp.DvidsUniversalXboxOneApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Collections.ObjectModel.Collection`1<DvidsUniversalXboxOneApp.SearchPage.SearchXamlData>"));
+                userType.CollectionAdd = VectorAdd_33_ObservableCollection;
+                userType.SetIsReturnTypeStub();
+                xamlType = userType;
+                break;
+
+            case 34:   //  System.Collections.ObjectModel.Collection`1<DvidsUniversalXboxOneApp.SearchPage.SearchXamlData>
+                userType = new global::DvidsUniversalXboxOneApp.DvidsUniversalXboxOneApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType.Activator = Activate_34_Collection;
+                userType.CollectionAdd = VectorAdd_34_Collection;
+                xamlType = userType;
+                break;
+
+            case 35:   //  DvidsUniversalXboxOneApp.SearchPage.SearchXamlData
+                userType = new global::DvidsUniversalXboxOneApp.DvidsUniversalXboxOneApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType.AddMemberName("SearchThumbnails");
+                userType.AddMemberName("SearchButtonTag");
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 36:   //  DvidsUniversalXboxOneApp.showsPage
+                userType = new global::DvidsUniversalXboxOneApp.DvidsUniversalXboxOneApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_36_showsPage;
+                userType.AddMemberName("XamlDataCollections");
+                userType.AddMemberName("EpisodeXamlDataCollections");
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 37:   //  System.Collections.ObjectModel.ObservableCollection`1<DvidsUniversalXboxOneApp.showsPage.XamlData>
+                userType = new global::DvidsUniversalXboxOneApp.DvidsUniversalXboxOneApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Collections.ObjectModel.Collection`1<DvidsUniversalXboxOneApp.showsPage.XamlData>"));
+                userType.CollectionAdd = VectorAdd_37_ObservableCollection;
+                userType.SetIsReturnTypeStub();
+                xamlType = userType;
+                break;
+
+            case 38:   //  System.Collections.ObjectModel.Collection`1<DvidsUniversalXboxOneApp.showsPage.XamlData>
+                userType = new global::DvidsUniversalXboxOneApp.DvidsUniversalXboxOneApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType.Activator = Activate_38_Collection;
+                userType.CollectionAdd = VectorAdd_38_Collection;
+                xamlType = userType;
+                break;
+
+            case 39:   //  DvidsUniversalXboxOneApp.showsPage.XamlData
                 userType = new global::DvidsUniversalXboxOneApp.DvidsUniversalXboxOneApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
                 userType.AddMemberName("ShowThumbnails");
                 userType.AddMemberName("ButtonTag");
@@ -552,21 +702,21 @@ namespace DvidsUniversalXboxOneApp.DvidsUniversalXboxOneApp_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 29:   //  System.Collections.ObjectModel.ObservableCollection`1<DvidsUniversalXboxOneApp.showsPage.EpisodeXamlData>
+            case 40:   //  System.Collections.ObjectModel.ObservableCollection`1<DvidsUniversalXboxOneApp.showsPage.EpisodeXamlData>
                 userType = new global::DvidsUniversalXboxOneApp.DvidsUniversalXboxOneApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Collections.ObjectModel.Collection`1<DvidsUniversalXboxOneApp.showsPage.EpisodeXamlData>"));
-                userType.CollectionAdd = VectorAdd_29_ObservableCollection;
+                userType.CollectionAdd = VectorAdd_40_ObservableCollection;
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 30:   //  System.Collections.ObjectModel.Collection`1<DvidsUniversalXboxOneApp.showsPage.EpisodeXamlData>
+            case 41:   //  System.Collections.ObjectModel.Collection`1<DvidsUniversalXboxOneApp.showsPage.EpisodeXamlData>
                 userType = new global::DvidsUniversalXboxOneApp.DvidsUniversalXboxOneApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.Activator = Activate_30_Collection;
-                userType.CollectionAdd = VectorAdd_30_Collection;
+                userType.Activator = Activate_41_Collection;
+                userType.CollectionAdd = VectorAdd_41_Collection;
                 xamlType = userType;
                 break;
 
-            case 31:   //  DvidsUniversalXboxOneApp.showsPage.EpisodeXamlData
+            case 42:   //  DvidsUniversalXboxOneApp.showsPage.EpisodeXamlData
                 userType = new global::DvidsUniversalXboxOneApp.DvidsUniversalXboxOneApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
                 userType.AddMemberName("EpisodeThumbnails");
                 userType.AddMemberName("EpisodeButtonTag");
@@ -613,172 +763,257 @@ namespace DvidsUniversalXboxOneApp.DvidsUniversalXboxOneApp_XamlTypeInfo
             var that = (global::DvidsUniversalXboxOneApp.LivePage.LiveXamlData)instance;
             that.LiveDateStart = (global::System.String)Value;
         }
-        private object get_4_DeviceFamilyTrigger_DeviceFamily(object instance)
+        private object get_4_LiveXamlData_LiveDescription(object instance)
+        {
+            var that = (global::DvidsUniversalXboxOneApp.LivePage.LiveXamlData)instance;
+            return that.LiveDescription;
+        }
+        private void set_4_LiveXamlData_LiveDescription(object instance, object Value)
+        {
+            var that = (global::DvidsUniversalXboxOneApp.LivePage.LiveXamlData)instance;
+            that.LiveDescription = (global::System.String)Value;
+        }
+        private object get_5_DeviceFamilyTrigger_DeviceFamily(object instance)
         {
             var that = (global::DvidsUniversalXboxOneApp.CustomTriggers.DeviceFamilyTrigger)instance;
             return that.DeviceFamily;
         }
-        private void set_4_DeviceFamilyTrigger_DeviceFamily(object instance, object Value)
+        private void set_5_DeviceFamilyTrigger_DeviceFamily(object instance, object Value)
         {
             var that = (global::DvidsUniversalXboxOneApp.CustomTriggers.DeviceFamilyTrigger)instance;
             that.DeviceFamily = (global::System.String)Value;
         }
-        private object get_5_MediaPlayer_XamlDataCollections(object instance)
+        private object get_6_MediaPlayer_XamlDataCollections(object instance)
         {
             var that = (global::DvidsUniversalXboxOneApp.MediaPlayer)instance;
             return that.XamlDataCollections;
         }
-        private object get_6_XamlData_ShowThumbnails(object instance)
+        private object get_7_XamlData_ShowThumbnails(object instance)
         {
             var that = (global::DvidsUniversalXboxOneApp.MediaPlayer.XamlData)instance;
             return that.ShowThumbnails;
         }
-        private void set_6_XamlData_ShowThumbnails(object instance, object Value)
+        private void set_7_XamlData_ShowThumbnails(object instance, object Value)
         {
             var that = (global::DvidsUniversalXboxOneApp.MediaPlayer.XamlData)instance;
             that.ShowThumbnails = (global::System.String)Value;
         }
-        private object get_7_XamlData_ButtonTag(object instance)
+        private object get_8_XamlData_ButtonTag(object instance)
         {
             var that = (global::DvidsUniversalXboxOneApp.MediaPlayer.XamlData)instance;
             return that.ButtonTag;
         }
-        private void set_7_XamlData_ButtonTag(object instance, object Value)
+        private void set_8_XamlData_ButtonTag(object instance, object Value)
         {
             var that = (global::DvidsUniversalXboxOneApp.MediaPlayer.XamlData)instance;
             that.ButtonTag = (global::System.String)Value;
         }
-        private object get_8_MediaPlayer_EpisodeXamlDataCollections(object instance)
+        private object get_9_MediaPlayer_EpisodeXamlDataCollections(object instance)
         {
             var that = (global::DvidsUniversalXboxOneApp.MediaPlayer)instance;
             return that.EpisodeXamlDataCollections;
         }
-        private object get_9_UrlXamlData_url(object instance)
+        private object get_10_UrlXamlData_url(object instance)
         {
             var that = (global::DvidsUniversalXboxOneApp.MediaPlayer.UrlXamlData)instance;
             return that.url;
         }
-        private void set_9_UrlXamlData_url(object instance, object Value)
+        private void set_10_UrlXamlData_url(object instance, object Value)
         {
             var that = (global::DvidsUniversalXboxOneApp.MediaPlayer.UrlXamlData)instance;
             that.url = (global::System.String)Value;
         }
-        private object get_10_MilitarySpotlightPage_PodcastShowsXamlDataCollections(object instance)
+        private object get_11_MilitarySpotlightPage_PodcastShowsXamlDataCollections(object instance)
         {
             var that = (global::DvidsUniversalXboxOneApp.MilitarySpotlightPage)instance;
             return that.PodcastShowsXamlDataCollections;
         }
-        private object get_11_PodcastShowsXamlData_podcastThumbnails(object instance)
+        private object get_12_PodcastShowsXamlData_podcastThumbnails(object instance)
         {
             var that = (global::DvidsUniversalXboxOneApp.MilitarySpotlightPage.PodcastShowsXamlData)instance;
             return that.podcastThumbnails;
         }
-        private void set_11_PodcastShowsXamlData_podcastThumbnails(object instance, object Value)
+        private void set_12_PodcastShowsXamlData_podcastThumbnails(object instance, object Value)
         {
             var that = (global::DvidsUniversalXboxOneApp.MilitarySpotlightPage.PodcastShowsXamlData)instance;
             that.podcastThumbnails = (global::System.String)Value;
         }
-        private object get_12_PodcastShowsXamlData_ButtonTag(object instance)
+        private object get_13_PodcastShowsXamlData_ButtonTag(object instance)
         {
             var that = (global::DvidsUniversalXboxOneApp.MilitarySpotlightPage.PodcastShowsXamlData)instance;
             return that.ButtonTag;
         }
-        private void set_12_PodcastShowsXamlData_ButtonTag(object instance, object Value)
+        private void set_13_PodcastShowsXamlData_ButtonTag(object instance, object Value)
         {
             var that = (global::DvidsUniversalXboxOneApp.MilitarySpotlightPage.PodcastShowsXamlData)instance;
             that.ButtonTag = (global::System.String)Value;
         }
-        private object get_13_MilitarySpotlightPage_PodcastEpisodeXamlDataCollections(object instance)
+        private object get_14_MilitarySpotlightPage_PodcastEpisodeXamlDataCollections(object instance)
         {
             var that = (global::DvidsUniversalXboxOneApp.MilitarySpotlightPage)instance;
             return that.PodcastEpisodeXamlDataCollections;
         }
-        private object get_14_PodcastEpisodeXamlData_id(object instance)
+        private object get_15_PodcastEpisodeXamlData_id(object instance)
         {
             var that = (global::DvidsUniversalXboxOneApp.MilitarySpotlightPage.PodcastEpisodeXamlData)instance;
             return that.id;
         }
-        private void set_14_PodcastEpisodeXamlData_id(object instance, object Value)
+        private void set_15_PodcastEpisodeXamlData_id(object instance, object Value)
         {
             var that = (global::DvidsUniversalXboxOneApp.MilitarySpotlightPage.PodcastEpisodeXamlData)instance;
             that.id = (global::System.String)Value;
         }
-        private object get_15_PodcastEpisodeXamlData_title(object instance)
+        private object get_16_PodcastEpisodeXamlData_title(object instance)
         {
             var that = (global::DvidsUniversalXboxOneApp.MilitarySpotlightPage.PodcastEpisodeXamlData)instance;
             return that.title;
         }
-        private void set_15_PodcastEpisodeXamlData_title(object instance, object Value)
+        private void set_16_PodcastEpisodeXamlData_title(object instance, object Value)
         {
             var that = (global::DvidsUniversalXboxOneApp.MilitarySpotlightPage.PodcastEpisodeXamlData)instance;
             that.title = (global::System.String)Value;
         }
-        private object get_16_PodcastEpisodeXamlData_description(object instance)
+        private object get_17_PodcastEpisodeXamlData_description(object instance)
         {
             var that = (global::DvidsUniversalXboxOneApp.MilitarySpotlightPage.PodcastEpisodeXamlData)instance;
             return that.description;
         }
-        private void set_16_PodcastEpisodeXamlData_description(object instance, object Value)
+        private void set_17_PodcastEpisodeXamlData_description(object instance, object Value)
         {
             var that = (global::DvidsUniversalXboxOneApp.MilitarySpotlightPage.PodcastEpisodeXamlData)instance;
             that.description = (global::System.String)Value;
         }
-        private object get_17_PodcastEpisodeXamlData_thumbnail(object instance)
+        private object get_18_PodcastEpisodeXamlData_thumbnail(object instance)
         {
             var that = (global::DvidsUniversalXboxOneApp.MilitarySpotlightPage.PodcastEpisodeXamlData)instance;
             return that.thumbnail;
         }
-        private void set_17_PodcastEpisodeXamlData_thumbnail(object instance, object Value)
+        private void set_18_PodcastEpisodeXamlData_thumbnail(object instance, object Value)
         {
             var that = (global::DvidsUniversalXboxOneApp.MilitarySpotlightPage.PodcastEpisodeXamlData)instance;
             that.thumbnail = (global::System.String)Value;
         }
-        private object get_18_showsPage_XamlDataCollections(object instance)
+        private object get_19_NewsPage_NewsSubjectsXamlDataCollections(object instance)
+        {
+            var that = (global::DvidsUniversalXboxOneApp.NewsPage)instance;
+            return that.NewsSubjectsXamlDataCollections;
+        }
+        private object get_20_NewsSubjectsXamlData_SubjectTitle(object instance)
+        {
+            var that = (global::DvidsUniversalXboxOneApp.NewsPage.NewsSubjectsXamlData)instance;
+            return that.SubjectTitle;
+        }
+        private void set_20_NewsSubjectsXamlData_SubjectTitle(object instance, object Value)
+        {
+            var that = (global::DvidsUniversalXboxOneApp.NewsPage.NewsSubjectsXamlData)instance;
+            that.SubjectTitle = (global::System.String)Value;
+        }
+        private object get_21_NewsSubjectsXamlData_ButtonTag(object instance)
+        {
+            var that = (global::DvidsUniversalXboxOneApp.NewsPage.NewsSubjectsXamlData)instance;
+            return that.ButtonTag;
+        }
+        private void set_21_NewsSubjectsXamlData_ButtonTag(object instance, object Value)
+        {
+            var that = (global::DvidsUniversalXboxOneApp.NewsPage.NewsSubjectsXamlData)instance;
+            that.ButtonTag = (global::System.String)Value;
+        }
+        private object get_22_NewsPage_NewsEpisodeXamlDataCollections(object instance)
+        {
+            var that = (global::DvidsUniversalXboxOneApp.NewsPage)instance;
+            return that.NewsEpisodeXamlDataCollections;
+        }
+        private object get_23_NewsEpisodesXamlData_EpisodeThumbnails(object instance)
+        {
+            var that = (global::DvidsUniversalXboxOneApp.NewsPage.NewsEpisodesXamlData)instance;
+            return that.EpisodeThumbnails;
+        }
+        private void set_23_NewsEpisodesXamlData_EpisodeThumbnails(object instance, object Value)
+        {
+            var that = (global::DvidsUniversalXboxOneApp.NewsPage.NewsEpisodesXamlData)instance;
+            that.EpisodeThumbnails = (global::System.String)Value;
+        }
+        private object get_24_NewsEpisodesXamlData_EpisodeButtonTag(object instance)
+        {
+            var that = (global::DvidsUniversalXboxOneApp.NewsPage.NewsEpisodesXamlData)instance;
+            return that.EpisodeButtonTag;
+        }
+        private void set_24_NewsEpisodesXamlData_EpisodeButtonTag(object instance, object Value)
+        {
+            var that = (global::DvidsUniversalXboxOneApp.NewsPage.NewsEpisodesXamlData)instance;
+            that.EpisodeButtonTag = (global::System.String)Value;
+        }
+        private object get_25_SearchPage_SearchXamlDataCollections(object instance)
+        {
+            var that = (global::DvidsUniversalXboxOneApp.SearchPage)instance;
+            return that.SearchXamlDataCollections;
+        }
+        private object get_26_SearchXamlData_SearchThumbnails(object instance)
+        {
+            var that = (global::DvidsUniversalXboxOneApp.SearchPage.SearchXamlData)instance;
+            return that.SearchThumbnails;
+        }
+        private void set_26_SearchXamlData_SearchThumbnails(object instance, object Value)
+        {
+            var that = (global::DvidsUniversalXboxOneApp.SearchPage.SearchXamlData)instance;
+            that.SearchThumbnails = (global::System.String)Value;
+        }
+        private object get_27_SearchXamlData_SearchButtonTag(object instance)
+        {
+            var that = (global::DvidsUniversalXboxOneApp.SearchPage.SearchXamlData)instance;
+            return that.SearchButtonTag;
+        }
+        private void set_27_SearchXamlData_SearchButtonTag(object instance, object Value)
+        {
+            var that = (global::DvidsUniversalXboxOneApp.SearchPage.SearchXamlData)instance;
+            that.SearchButtonTag = (global::System.String)Value;
+        }
+        private object get_28_showsPage_XamlDataCollections(object instance)
         {
             var that = (global::DvidsUniversalXboxOneApp.showsPage)instance;
             return that.XamlDataCollections;
         }
-        private object get_19_XamlData_ShowThumbnails(object instance)
+        private object get_29_XamlData_ShowThumbnails(object instance)
         {
             var that = (global::DvidsUniversalXboxOneApp.showsPage.XamlData)instance;
             return that.ShowThumbnails;
         }
-        private void set_19_XamlData_ShowThumbnails(object instance, object Value)
+        private void set_29_XamlData_ShowThumbnails(object instance, object Value)
         {
             var that = (global::DvidsUniversalXboxOneApp.showsPage.XamlData)instance;
             that.ShowThumbnails = (global::System.String)Value;
         }
-        private object get_20_XamlData_ButtonTag(object instance)
+        private object get_30_XamlData_ButtonTag(object instance)
         {
             var that = (global::DvidsUniversalXboxOneApp.showsPage.XamlData)instance;
             return that.ButtonTag;
         }
-        private void set_20_XamlData_ButtonTag(object instance, object Value)
+        private void set_30_XamlData_ButtonTag(object instance, object Value)
         {
             var that = (global::DvidsUniversalXboxOneApp.showsPage.XamlData)instance;
             that.ButtonTag = (global::System.String)Value;
         }
-        private object get_21_showsPage_EpisodeXamlDataCollections(object instance)
+        private object get_31_showsPage_EpisodeXamlDataCollections(object instance)
         {
             var that = (global::DvidsUniversalXboxOneApp.showsPage)instance;
             return that.EpisodeXamlDataCollections;
         }
-        private object get_22_EpisodeXamlData_EpisodeThumbnails(object instance)
+        private object get_32_EpisodeXamlData_EpisodeThumbnails(object instance)
         {
             var that = (global::DvidsUniversalXboxOneApp.showsPage.EpisodeXamlData)instance;
             return that.EpisodeThumbnails;
         }
-        private void set_22_EpisodeXamlData_EpisodeThumbnails(object instance, object Value)
+        private void set_32_EpisodeXamlData_EpisodeThumbnails(object instance, object Value)
         {
             var that = (global::DvidsUniversalXboxOneApp.showsPage.EpisodeXamlData)instance;
             that.EpisodeThumbnails = (global::System.String)Value;
         }
-        private object get_23_EpisodeXamlData_EpisodeButtonTag(object instance)
+        private object get_33_EpisodeXamlData_EpisodeButtonTag(object instance)
         {
             var that = (global::DvidsUniversalXboxOneApp.showsPage.EpisodeXamlData)instance;
             return that.EpisodeButtonTag;
         }
-        private void set_23_EpisodeXamlData_EpisodeButtonTag(object instance, object Value)
+        private void set_33_EpisodeXamlData_EpisodeButtonTag(object instance, object Value)
         {
             var that = (global::DvidsUniversalXboxOneApp.showsPage.EpisodeXamlData)instance;
             that.EpisodeButtonTag = (global::System.String)Value;
@@ -815,125 +1050,185 @@ namespace DvidsUniversalXboxOneApp.DvidsUniversalXboxOneApp_XamlTypeInfo
                 xamlMember.Getter = get_3_LiveXamlData_LiveDateStart;
                 xamlMember.Setter = set_3_LiveXamlData_LiveDateStart;
                 break;
+            case "DvidsUniversalXboxOneApp.LivePage.LiveXamlData.LiveDescription":
+                userType = (global::DvidsUniversalXboxOneApp.DvidsUniversalXboxOneApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("DvidsUniversalXboxOneApp.LivePage.LiveXamlData");
+                xamlMember = new global::DvidsUniversalXboxOneApp.DvidsUniversalXboxOneApp_XamlTypeInfo.XamlMember(this, "LiveDescription", "String");
+                xamlMember.Getter = get_4_LiveXamlData_LiveDescription;
+                xamlMember.Setter = set_4_LiveXamlData_LiveDescription;
+                break;
             case "DvidsUniversalXboxOneApp.CustomTriggers.DeviceFamilyTrigger.DeviceFamily":
                 userType = (global::DvidsUniversalXboxOneApp.DvidsUniversalXboxOneApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("DvidsUniversalXboxOneApp.CustomTriggers.DeviceFamilyTrigger");
                 xamlMember = new global::DvidsUniversalXboxOneApp.DvidsUniversalXboxOneApp_XamlTypeInfo.XamlMember(this, "DeviceFamily", "String");
-                xamlMember.Getter = get_4_DeviceFamilyTrigger_DeviceFamily;
-                xamlMember.Setter = set_4_DeviceFamilyTrigger_DeviceFamily;
+                xamlMember.Getter = get_5_DeviceFamilyTrigger_DeviceFamily;
+                xamlMember.Setter = set_5_DeviceFamilyTrigger_DeviceFamily;
                 break;
             case "DvidsUniversalXboxOneApp.MediaPlayer.XamlDataCollections":
                 userType = (global::DvidsUniversalXboxOneApp.DvidsUniversalXboxOneApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("DvidsUniversalXboxOneApp.MediaPlayer");
                 xamlMember = new global::DvidsUniversalXboxOneApp.DvidsUniversalXboxOneApp_XamlTypeInfo.XamlMember(this, "XamlDataCollections", "System.Collections.ObjectModel.ObservableCollection`1<DvidsUniversalXboxOneApp.MediaPlayer.XamlData>");
-                xamlMember.Getter = get_5_MediaPlayer_XamlDataCollections;
+                xamlMember.Getter = get_6_MediaPlayer_XamlDataCollections;
                 xamlMember.SetIsReadOnly();
                 break;
             case "DvidsUniversalXboxOneApp.MediaPlayer.XamlData.ShowThumbnails":
                 userType = (global::DvidsUniversalXboxOneApp.DvidsUniversalXboxOneApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("DvidsUniversalXboxOneApp.MediaPlayer.XamlData");
                 xamlMember = new global::DvidsUniversalXboxOneApp.DvidsUniversalXboxOneApp_XamlTypeInfo.XamlMember(this, "ShowThumbnails", "String");
-                xamlMember.Getter = get_6_XamlData_ShowThumbnails;
-                xamlMember.Setter = set_6_XamlData_ShowThumbnails;
+                xamlMember.Getter = get_7_XamlData_ShowThumbnails;
+                xamlMember.Setter = set_7_XamlData_ShowThumbnails;
                 break;
             case "DvidsUniversalXboxOneApp.MediaPlayer.XamlData.ButtonTag":
                 userType = (global::DvidsUniversalXboxOneApp.DvidsUniversalXboxOneApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("DvidsUniversalXboxOneApp.MediaPlayer.XamlData");
                 xamlMember = new global::DvidsUniversalXboxOneApp.DvidsUniversalXboxOneApp_XamlTypeInfo.XamlMember(this, "ButtonTag", "String");
-                xamlMember.Getter = get_7_XamlData_ButtonTag;
-                xamlMember.Setter = set_7_XamlData_ButtonTag;
+                xamlMember.Getter = get_8_XamlData_ButtonTag;
+                xamlMember.Setter = set_8_XamlData_ButtonTag;
                 break;
             case "DvidsUniversalXboxOneApp.MediaPlayer.EpisodeXamlDataCollections":
                 userType = (global::DvidsUniversalXboxOneApp.DvidsUniversalXboxOneApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("DvidsUniversalXboxOneApp.MediaPlayer");
                 xamlMember = new global::DvidsUniversalXboxOneApp.DvidsUniversalXboxOneApp_XamlTypeInfo.XamlMember(this, "EpisodeXamlDataCollections", "System.Collections.ObjectModel.ObservableCollection`1<DvidsUniversalXboxOneApp.MediaPlayer.UrlXamlData>");
-                xamlMember.Getter = get_8_MediaPlayer_EpisodeXamlDataCollections;
+                xamlMember.Getter = get_9_MediaPlayer_EpisodeXamlDataCollections;
                 xamlMember.SetIsReadOnly();
                 break;
             case "DvidsUniversalXboxOneApp.MediaPlayer.UrlXamlData.url":
                 userType = (global::DvidsUniversalXboxOneApp.DvidsUniversalXboxOneApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("DvidsUniversalXboxOneApp.MediaPlayer.UrlXamlData");
                 xamlMember = new global::DvidsUniversalXboxOneApp.DvidsUniversalXboxOneApp_XamlTypeInfo.XamlMember(this, "url", "String");
-                xamlMember.Getter = get_9_UrlXamlData_url;
-                xamlMember.Setter = set_9_UrlXamlData_url;
+                xamlMember.Getter = get_10_UrlXamlData_url;
+                xamlMember.Setter = set_10_UrlXamlData_url;
                 break;
             case "DvidsUniversalXboxOneApp.MilitarySpotlightPage.PodcastShowsXamlDataCollections":
                 userType = (global::DvidsUniversalXboxOneApp.DvidsUniversalXboxOneApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("DvidsUniversalXboxOneApp.MilitarySpotlightPage");
                 xamlMember = new global::DvidsUniversalXboxOneApp.DvidsUniversalXboxOneApp_XamlTypeInfo.XamlMember(this, "PodcastShowsXamlDataCollections", "System.Collections.ObjectModel.ObservableCollection`1<DvidsUniversalXboxOneApp.MilitarySpotlightPage.PodcastShowsXamlData>");
-                xamlMember.Getter = get_10_MilitarySpotlightPage_PodcastShowsXamlDataCollections;
+                xamlMember.Getter = get_11_MilitarySpotlightPage_PodcastShowsXamlDataCollections;
                 xamlMember.SetIsReadOnly();
                 break;
             case "DvidsUniversalXboxOneApp.MilitarySpotlightPage.PodcastShowsXamlData.podcastThumbnails":
                 userType = (global::DvidsUniversalXboxOneApp.DvidsUniversalXboxOneApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("DvidsUniversalXboxOneApp.MilitarySpotlightPage.PodcastShowsXamlData");
                 xamlMember = new global::DvidsUniversalXboxOneApp.DvidsUniversalXboxOneApp_XamlTypeInfo.XamlMember(this, "podcastThumbnails", "String");
-                xamlMember.Getter = get_11_PodcastShowsXamlData_podcastThumbnails;
-                xamlMember.Setter = set_11_PodcastShowsXamlData_podcastThumbnails;
+                xamlMember.Getter = get_12_PodcastShowsXamlData_podcastThumbnails;
+                xamlMember.Setter = set_12_PodcastShowsXamlData_podcastThumbnails;
                 break;
             case "DvidsUniversalXboxOneApp.MilitarySpotlightPage.PodcastShowsXamlData.ButtonTag":
                 userType = (global::DvidsUniversalXboxOneApp.DvidsUniversalXboxOneApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("DvidsUniversalXboxOneApp.MilitarySpotlightPage.PodcastShowsXamlData");
                 xamlMember = new global::DvidsUniversalXboxOneApp.DvidsUniversalXboxOneApp_XamlTypeInfo.XamlMember(this, "ButtonTag", "String");
-                xamlMember.Getter = get_12_PodcastShowsXamlData_ButtonTag;
-                xamlMember.Setter = set_12_PodcastShowsXamlData_ButtonTag;
+                xamlMember.Getter = get_13_PodcastShowsXamlData_ButtonTag;
+                xamlMember.Setter = set_13_PodcastShowsXamlData_ButtonTag;
                 break;
             case "DvidsUniversalXboxOneApp.MilitarySpotlightPage.PodcastEpisodeXamlDataCollections":
                 userType = (global::DvidsUniversalXboxOneApp.DvidsUniversalXboxOneApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("DvidsUniversalXboxOneApp.MilitarySpotlightPage");
                 xamlMember = new global::DvidsUniversalXboxOneApp.DvidsUniversalXboxOneApp_XamlTypeInfo.XamlMember(this, "PodcastEpisodeXamlDataCollections", "System.Collections.ObjectModel.ObservableCollection`1<DvidsUniversalXboxOneApp.MilitarySpotlightPage.PodcastEpisodeXamlData>");
-                xamlMember.Getter = get_13_MilitarySpotlightPage_PodcastEpisodeXamlDataCollections;
+                xamlMember.Getter = get_14_MilitarySpotlightPage_PodcastEpisodeXamlDataCollections;
                 xamlMember.SetIsReadOnly();
                 break;
             case "DvidsUniversalXboxOneApp.MilitarySpotlightPage.PodcastEpisodeXamlData.id":
                 userType = (global::DvidsUniversalXboxOneApp.DvidsUniversalXboxOneApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("DvidsUniversalXboxOneApp.MilitarySpotlightPage.PodcastEpisodeXamlData");
                 xamlMember = new global::DvidsUniversalXboxOneApp.DvidsUniversalXboxOneApp_XamlTypeInfo.XamlMember(this, "id", "String");
-                xamlMember.Getter = get_14_PodcastEpisodeXamlData_id;
-                xamlMember.Setter = set_14_PodcastEpisodeXamlData_id;
+                xamlMember.Getter = get_15_PodcastEpisodeXamlData_id;
+                xamlMember.Setter = set_15_PodcastEpisodeXamlData_id;
                 break;
             case "DvidsUniversalXboxOneApp.MilitarySpotlightPage.PodcastEpisodeXamlData.title":
                 userType = (global::DvidsUniversalXboxOneApp.DvidsUniversalXboxOneApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("DvidsUniversalXboxOneApp.MilitarySpotlightPage.PodcastEpisodeXamlData");
                 xamlMember = new global::DvidsUniversalXboxOneApp.DvidsUniversalXboxOneApp_XamlTypeInfo.XamlMember(this, "title", "String");
-                xamlMember.Getter = get_15_PodcastEpisodeXamlData_title;
-                xamlMember.Setter = set_15_PodcastEpisodeXamlData_title;
+                xamlMember.Getter = get_16_PodcastEpisodeXamlData_title;
+                xamlMember.Setter = set_16_PodcastEpisodeXamlData_title;
                 break;
             case "DvidsUniversalXboxOneApp.MilitarySpotlightPage.PodcastEpisodeXamlData.description":
                 userType = (global::DvidsUniversalXboxOneApp.DvidsUniversalXboxOneApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("DvidsUniversalXboxOneApp.MilitarySpotlightPage.PodcastEpisodeXamlData");
                 xamlMember = new global::DvidsUniversalXboxOneApp.DvidsUniversalXboxOneApp_XamlTypeInfo.XamlMember(this, "description", "String");
-                xamlMember.Getter = get_16_PodcastEpisodeXamlData_description;
-                xamlMember.Setter = set_16_PodcastEpisodeXamlData_description;
+                xamlMember.Getter = get_17_PodcastEpisodeXamlData_description;
+                xamlMember.Setter = set_17_PodcastEpisodeXamlData_description;
                 break;
             case "DvidsUniversalXboxOneApp.MilitarySpotlightPage.PodcastEpisodeXamlData.thumbnail":
                 userType = (global::DvidsUniversalXboxOneApp.DvidsUniversalXboxOneApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("DvidsUniversalXboxOneApp.MilitarySpotlightPage.PodcastEpisodeXamlData");
                 xamlMember = new global::DvidsUniversalXboxOneApp.DvidsUniversalXboxOneApp_XamlTypeInfo.XamlMember(this, "thumbnail", "String");
-                xamlMember.Getter = get_17_PodcastEpisodeXamlData_thumbnail;
-                xamlMember.Setter = set_17_PodcastEpisodeXamlData_thumbnail;
+                xamlMember.Getter = get_18_PodcastEpisodeXamlData_thumbnail;
+                xamlMember.Setter = set_18_PodcastEpisodeXamlData_thumbnail;
+                break;
+            case "DvidsUniversalXboxOneApp.NewsPage.NewsSubjectsXamlDataCollections":
+                userType = (global::DvidsUniversalXboxOneApp.DvidsUniversalXboxOneApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("DvidsUniversalXboxOneApp.NewsPage");
+                xamlMember = new global::DvidsUniversalXboxOneApp.DvidsUniversalXboxOneApp_XamlTypeInfo.XamlMember(this, "NewsSubjectsXamlDataCollections", "System.Collections.ObjectModel.ObservableCollection`1<DvidsUniversalXboxOneApp.NewsPage.NewsSubjectsXamlData>");
+                xamlMember.Getter = get_19_NewsPage_NewsSubjectsXamlDataCollections;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "DvidsUniversalXboxOneApp.NewsPage.NewsSubjectsXamlData.SubjectTitle":
+                userType = (global::DvidsUniversalXboxOneApp.DvidsUniversalXboxOneApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("DvidsUniversalXboxOneApp.NewsPage.NewsSubjectsXamlData");
+                xamlMember = new global::DvidsUniversalXboxOneApp.DvidsUniversalXboxOneApp_XamlTypeInfo.XamlMember(this, "SubjectTitle", "String");
+                xamlMember.Getter = get_20_NewsSubjectsXamlData_SubjectTitle;
+                xamlMember.Setter = set_20_NewsSubjectsXamlData_SubjectTitle;
+                break;
+            case "DvidsUniversalXboxOneApp.NewsPage.NewsSubjectsXamlData.ButtonTag":
+                userType = (global::DvidsUniversalXboxOneApp.DvidsUniversalXboxOneApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("DvidsUniversalXboxOneApp.NewsPage.NewsSubjectsXamlData");
+                xamlMember = new global::DvidsUniversalXboxOneApp.DvidsUniversalXboxOneApp_XamlTypeInfo.XamlMember(this, "ButtonTag", "String");
+                xamlMember.Getter = get_21_NewsSubjectsXamlData_ButtonTag;
+                xamlMember.Setter = set_21_NewsSubjectsXamlData_ButtonTag;
+                break;
+            case "DvidsUniversalXboxOneApp.NewsPage.NewsEpisodeXamlDataCollections":
+                userType = (global::DvidsUniversalXboxOneApp.DvidsUniversalXboxOneApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("DvidsUniversalXboxOneApp.NewsPage");
+                xamlMember = new global::DvidsUniversalXboxOneApp.DvidsUniversalXboxOneApp_XamlTypeInfo.XamlMember(this, "NewsEpisodeXamlDataCollections", "System.Collections.ObjectModel.ObservableCollection`1<DvidsUniversalXboxOneApp.NewsPage.NewsEpisodesXamlData>");
+                xamlMember.Getter = get_22_NewsPage_NewsEpisodeXamlDataCollections;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "DvidsUniversalXboxOneApp.NewsPage.NewsEpisodesXamlData.EpisodeThumbnails":
+                userType = (global::DvidsUniversalXboxOneApp.DvidsUniversalXboxOneApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("DvidsUniversalXboxOneApp.NewsPage.NewsEpisodesXamlData");
+                xamlMember = new global::DvidsUniversalXboxOneApp.DvidsUniversalXboxOneApp_XamlTypeInfo.XamlMember(this, "EpisodeThumbnails", "String");
+                xamlMember.Getter = get_23_NewsEpisodesXamlData_EpisodeThumbnails;
+                xamlMember.Setter = set_23_NewsEpisodesXamlData_EpisodeThumbnails;
+                break;
+            case "DvidsUniversalXboxOneApp.NewsPage.NewsEpisodesXamlData.EpisodeButtonTag":
+                userType = (global::DvidsUniversalXboxOneApp.DvidsUniversalXboxOneApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("DvidsUniversalXboxOneApp.NewsPage.NewsEpisodesXamlData");
+                xamlMember = new global::DvidsUniversalXboxOneApp.DvidsUniversalXboxOneApp_XamlTypeInfo.XamlMember(this, "EpisodeButtonTag", "String");
+                xamlMember.Getter = get_24_NewsEpisodesXamlData_EpisodeButtonTag;
+                xamlMember.Setter = set_24_NewsEpisodesXamlData_EpisodeButtonTag;
+                break;
+            case "DvidsUniversalXboxOneApp.SearchPage.SearchXamlDataCollections":
+                userType = (global::DvidsUniversalXboxOneApp.DvidsUniversalXboxOneApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("DvidsUniversalXboxOneApp.SearchPage");
+                xamlMember = new global::DvidsUniversalXboxOneApp.DvidsUniversalXboxOneApp_XamlTypeInfo.XamlMember(this, "SearchXamlDataCollections", "System.Collections.ObjectModel.ObservableCollection`1<DvidsUniversalXboxOneApp.SearchPage.SearchXamlData>");
+                xamlMember.Getter = get_25_SearchPage_SearchXamlDataCollections;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "DvidsUniversalXboxOneApp.SearchPage.SearchXamlData.SearchThumbnails":
+                userType = (global::DvidsUniversalXboxOneApp.DvidsUniversalXboxOneApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("DvidsUniversalXboxOneApp.SearchPage.SearchXamlData");
+                xamlMember = new global::DvidsUniversalXboxOneApp.DvidsUniversalXboxOneApp_XamlTypeInfo.XamlMember(this, "SearchThumbnails", "String");
+                xamlMember.Getter = get_26_SearchXamlData_SearchThumbnails;
+                xamlMember.Setter = set_26_SearchXamlData_SearchThumbnails;
+                break;
+            case "DvidsUniversalXboxOneApp.SearchPage.SearchXamlData.SearchButtonTag":
+                userType = (global::DvidsUniversalXboxOneApp.DvidsUniversalXboxOneApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("DvidsUniversalXboxOneApp.SearchPage.SearchXamlData");
+                xamlMember = new global::DvidsUniversalXboxOneApp.DvidsUniversalXboxOneApp_XamlTypeInfo.XamlMember(this, "SearchButtonTag", "String");
+                xamlMember.Getter = get_27_SearchXamlData_SearchButtonTag;
+                xamlMember.Setter = set_27_SearchXamlData_SearchButtonTag;
                 break;
             case "DvidsUniversalXboxOneApp.showsPage.XamlDataCollections":
                 userType = (global::DvidsUniversalXboxOneApp.DvidsUniversalXboxOneApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("DvidsUniversalXboxOneApp.showsPage");
                 xamlMember = new global::DvidsUniversalXboxOneApp.DvidsUniversalXboxOneApp_XamlTypeInfo.XamlMember(this, "XamlDataCollections", "System.Collections.ObjectModel.ObservableCollection`1<DvidsUniversalXboxOneApp.showsPage.XamlData>");
-                xamlMember.Getter = get_18_showsPage_XamlDataCollections;
+                xamlMember.Getter = get_28_showsPage_XamlDataCollections;
                 xamlMember.SetIsReadOnly();
                 break;
             case "DvidsUniversalXboxOneApp.showsPage.XamlData.ShowThumbnails":
                 userType = (global::DvidsUniversalXboxOneApp.DvidsUniversalXboxOneApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("DvidsUniversalXboxOneApp.showsPage.XamlData");
                 xamlMember = new global::DvidsUniversalXboxOneApp.DvidsUniversalXboxOneApp_XamlTypeInfo.XamlMember(this, "ShowThumbnails", "String");
-                xamlMember.Getter = get_19_XamlData_ShowThumbnails;
-                xamlMember.Setter = set_19_XamlData_ShowThumbnails;
+                xamlMember.Getter = get_29_XamlData_ShowThumbnails;
+                xamlMember.Setter = set_29_XamlData_ShowThumbnails;
                 break;
             case "DvidsUniversalXboxOneApp.showsPage.XamlData.ButtonTag":
                 userType = (global::DvidsUniversalXboxOneApp.DvidsUniversalXboxOneApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("DvidsUniversalXboxOneApp.showsPage.XamlData");
                 xamlMember = new global::DvidsUniversalXboxOneApp.DvidsUniversalXboxOneApp_XamlTypeInfo.XamlMember(this, "ButtonTag", "String");
-                xamlMember.Getter = get_20_XamlData_ButtonTag;
-                xamlMember.Setter = set_20_XamlData_ButtonTag;
+                xamlMember.Getter = get_30_XamlData_ButtonTag;
+                xamlMember.Setter = set_30_XamlData_ButtonTag;
                 break;
             case "DvidsUniversalXboxOneApp.showsPage.EpisodeXamlDataCollections":
                 userType = (global::DvidsUniversalXboxOneApp.DvidsUniversalXboxOneApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("DvidsUniversalXboxOneApp.showsPage");
                 xamlMember = new global::DvidsUniversalXboxOneApp.DvidsUniversalXboxOneApp_XamlTypeInfo.XamlMember(this, "EpisodeXamlDataCollections", "System.Collections.ObjectModel.ObservableCollection`1<DvidsUniversalXboxOneApp.showsPage.EpisodeXamlData>");
-                xamlMember.Getter = get_21_showsPage_EpisodeXamlDataCollections;
+                xamlMember.Getter = get_31_showsPage_EpisodeXamlDataCollections;
                 xamlMember.SetIsReadOnly();
                 break;
             case "DvidsUniversalXboxOneApp.showsPage.EpisodeXamlData.EpisodeThumbnails":
                 userType = (global::DvidsUniversalXboxOneApp.DvidsUniversalXboxOneApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("DvidsUniversalXboxOneApp.showsPage.EpisodeXamlData");
                 xamlMember = new global::DvidsUniversalXboxOneApp.DvidsUniversalXboxOneApp_XamlTypeInfo.XamlMember(this, "EpisodeThumbnails", "String");
-                xamlMember.Getter = get_22_EpisodeXamlData_EpisodeThumbnails;
-                xamlMember.Setter = set_22_EpisodeXamlData_EpisodeThumbnails;
+                xamlMember.Getter = get_32_EpisodeXamlData_EpisodeThumbnails;
+                xamlMember.Setter = set_32_EpisodeXamlData_EpisodeThumbnails;
                 break;
             case "DvidsUniversalXboxOneApp.showsPage.EpisodeXamlData.EpisodeButtonTag":
                 userType = (global::DvidsUniversalXboxOneApp.DvidsUniversalXboxOneApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("DvidsUniversalXboxOneApp.showsPage.EpisodeXamlData");
                 xamlMember = new global::DvidsUniversalXboxOneApp.DvidsUniversalXboxOneApp_XamlTypeInfo.XamlMember(this, "EpisodeButtonTag", "String");
-                xamlMember.Getter = get_23_EpisodeXamlData_EpisodeButtonTag;
-                xamlMember.Setter = set_23_EpisodeXamlData_EpisodeButtonTag;
+                xamlMember.Getter = get_33_EpisodeXamlData_EpisodeButtonTag;
+                xamlMember.Setter = set_33_EpisodeXamlData_EpisodeButtonTag;
                 break;
             }
             return xamlMember;

@@ -5,6 +5,7 @@
     <RootPropertyPathName Name="ButtonTag" />
     <RootPropertyPathName Name="LiveThumbnails" />
     <RootPropertyPathName Name="LiveDateStart" />
+    <RootPropertyPathName Name="LiveDescription" />
     <RootPropertyPathName Name="PodcastShowsXamlDataCollections" />
     <RootPropertyPathName Name="id" />
     <RootPropertyPathName Name="thumbnail" />
@@ -13,6 +14,11 @@
     <RootPropertyPathName Name="EpisodeXamlDataCollections" />
     <RootPropertyPathName Name="EpisodeButtonTag" />
     <RootPropertyPathName Name="EpisodeThumbnails" />
+    <RootPropertyPathName Name="NewsSubjectsXamlDataCollections" />
+    <RootPropertyPathName Name="SubjectTitle" />
+    <RootPropertyPathName Name="SearchXamlDataCollections" />
+    <RootPropertyPathName Name="SearchButtonTag" />
+    <RootPropertyPathName Name="SearchThumbnails" />
     <RootPropertyPathName Name="XamlDataCollections" />
     <RootPropertyPathName Name="ShowThumbnails" />
   </Roots.PropertyPathNames>
@@ -58,6 +64,8 @@
       <RootProperty Name="Tag" />
       <RootProperty Name="Content" />
       <RootProperty Name="Style" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="VerticalAlignment" />
       <RootEvent Name="Click" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Media.ImageBrush">
@@ -77,6 +85,8 @@
       <RootProperty Name="Text" />
       <RootProperty Name="Foreground" />
       <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="FontSize" />
+      <RootProperty Name="TextWrapping" />
     </RootType>
     <RootType FullName="DvidsUniversalXboxOneApp.LivePage" />
     <RootType FullName="Windows.UI.Xaml.Controls.Control">
@@ -116,6 +126,7 @@
       <RootProperty Name="Pane" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Image">
+      <RootProperty Name="Name" />
       <RootProperty Name="Source" />
     </RootType>
     <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.StaticResourceExtension" />
@@ -128,6 +139,12 @@
     </RootType>
     <RootType FullName="DvidsUniversalXboxOneApp.MediaPlayer" />
     <RootType FullName="DvidsUniversalXboxOneApp.MilitarySpotlightPage" />
+    <RootType FullName="DvidsUniversalXboxOneApp.NewsPage" />
+    <RootType FullName="Windows.UI.Xaml.Controls.TextBox">
+      <RootProperty Name="Name" />
+      <RootProperty Name="HorizontalAlignment" />
+    </RootType>
+    <RootType FullName="DvidsUniversalXboxOneApp.SearchPage" />
     <RootType FullName="DvidsUniversalXboxOneApp.showsPage" />
   </Roots.RootTypes>
 </Roots>

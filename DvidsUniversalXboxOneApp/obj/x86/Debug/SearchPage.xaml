@@ -1,0 +1,53 @@
+﻿<Page
+    x:Class="DvidsUniversalXboxOneApp.SearchPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:DvidsUniversalXboxOneApp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Frame x:ConnectionId='1' x:Name="showsFrame">
+        <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+            <StackPanel Background="#404040">
+                <ScrollViewer x:ConnectionId='2' HorizontalScrollBarVisibility="Auto" x:Name="ShowMenuScroll" VerticalScrollBarVisibility="Disabled">
+                    <!-- Stack Panel for List of Shows 
+                    <Grid Width="400">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition />
+                        </Grid.ColumnDefinitions>
+                        <TextBlock Text="Label" Width="150" />
+                        <TextBox Text="Value" Grid.Column="1" />
+                    </Grid>-->
+
+                    <StackPanel Orientation="Horizontal" Background="Beige">
+                        <TextBox x:ConnectionId='5' Name="searchBox" HorizontalAlignment="Stretch"/>
+                        <Button x:ConnectionId='6'                      Width="100" VerticalAlignment="Stretch"/>
+                    </StackPanel> 
+                </ScrollViewer>
+                <!-- List of Episodes -->
+                <ScrollViewer VerticalScrollBarVisibility="Visible">
+                    <StackPanel>
+                        <Grid>
+                            <GridView x:ConnectionId='3' x:Name="episodesGrid" ItemsSource="{Binding SearchXamlDataCollections}">
+                                <GridView.ItemTemplate>
+                                    <DataTemplate>
+                                        <Button x:ConnectionId='4'                      Tag="{Binding SearchButtonTag}">
+                                            <Grid Height="125" Width="200" BorderThickness="3">
+                                                <Grid.Background>
+                                                    <ImageBrush ImageSource="{Binding SearchThumbnails}"/>
+                                                </Grid.Background>
+                                            </Grid>
+                                        </Button>
+                                    </DataTemplate>
+                                </GridView.ItemTemplate>
+                            </GridView>
+                        </Grid>
+                    </StackPanel>
+                </ScrollViewer>
+            </StackPanel>
+        </Grid>
+    </Frame>
+</Page>
+

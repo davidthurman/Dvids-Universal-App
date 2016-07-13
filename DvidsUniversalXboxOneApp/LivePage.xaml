@@ -11,35 +11,44 @@
         <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
             <StackPanel Background="#404040">
                 <!-- List of Live Shows -->
-                <ScrollViewer VerticalScrollBarVisibility="Visible">
                     <StackPanel>
+                    <ScrollViewer VerticalScrollBarVisibility="Visible">
                         <Grid>
                             <GridView x:Name="liveGrid" ItemsSource="{Binding LiveXamlDataCollections}">
                                 <GridView.ItemTemplate>
                                     <DataTemplate>
-                                        <Button  Click="mediaPlayer" Tag="{Binding ButtonTag}">
+                                        <StackPanel>
                                             <StackPanel>
-                                                <Grid Height="125" Width="200" BorderThickness="3">
-                                                    <Grid.Background>
-                                                        <ImageBrush ImageSource="{Binding LiveThumbnails}"/>
-                                                    </Grid.Background>
-                                                    <Border VerticalAlignment="Bottom">
-                                                        <Border.Background>
-                                                            <SolidColorBrush Color="White" Opacity=".12"/>
-                                                        </Border.Background>
-                                                        <TextBlock Text="{Binding LiveDateStart}" Foreground="White" HorizontalAlignment="Center"/>
-                                                    </Border>
-                                                </Grid>
-                                                
+                                                <Button  Click="mediaPlayer" Tag="{Binding ButtonTag}">
+                                                <StackPanel>
+                                                        <Grid Height="250" Width="400" BorderThickness="3">
+                                                            <Grid.Background>
+                                                                <ImageBrush ImageSource="{Binding LiveThumbnails}"/>
+                                                            </Grid.Background>
+                                                            <Border VerticalAlignment="Bottom">
+                                                                <Border.Background>
+                                                                    <SolidColorBrush Color="White" Opacity=".12"/>
+                                                                </Border.Background>
+                                                                <TextBlock Text="{Binding LiveDescription}" Foreground="White"  FontSize="16" TextWrapping="Wrap"/>
+                                                            </Border>
+                                                            <Border VerticalAlignment="Top">
+                                                                <Border.Background>
+                                                                    <SolidColorBrush Color="White" Opacity=".12"/>
+                                                                </Border.Background>
+                                                                <TextBlock Text="{Binding LiveDateStart}" Foreground="White" HorizontalAlignment="Center"/>
+                                                            </Border>
+                                                        </Grid>
+                                                    </StackPanel>
+                                            </Button>
                                             </StackPanel>
-                                            
-                                        </Button>
+                                        </StackPanel>
                                     </DataTemplate>
                                 </GridView.ItemTemplate>
                             </GridView>
-                        </Grid>
-                    </StackPanel>
-                </ScrollViewer>
+                         </Grid>
+                    </ScrollViewer>
+                </StackPanel>
+                
             </StackPanel>
         </Grid>
     </Frame>

@@ -17,7 +17,7 @@ namespace DvidsUniversalXboxOneApp
         {
             var http = new HttpClient();
             Debug.WriteLine("1");
-            var response = await http.GetAsync("https://api.dvidshub.net//live/list?max_results=50&api_key=key-5728b08b42577");
+            var response = await http.GetAsync("https://api.dvidshub.net//live/list?max_results=50&thumb_width=300&api_key=key-5728b08b42577");
             Debug.WriteLine("2");
             var result = await response.Content.ReadAsStringAsync();
             Debug.WriteLine("3");
