@@ -17,6 +17,8 @@ namespace DvidsUniversalXboxOneApp
         {
             var http = new HttpClient();
             var response = await http.GetAsync("https://api.dvidshub.net//asset?id=" + id + "&api_key=key-5728b08b42577");
+            Debug.WriteLine("TESTING");
+            Debug.WriteLine("https://api.dvidshub.net//asset?id=" + id + "&api_key=key-5728b08b42577");
             var result = await response.Content.ReadAsStringAsync();
             var serializer = new DataContractJsonSerializer(typeof(RootObjectUrl));
             var ms = new MemoryStream(Encoding.UTF8.GetBytes(result));
@@ -106,9 +108,10 @@ namespace DvidsUniversalXboxOneApp
         */
         [DataMember]
         public List<File> files { get; set; }
-        /*
+        
         [DataMember]
         public string hls_url { get; set; }
+        /*
         [DataMember]
         public Thumbnail thumbnail { get; set; }
         */

@@ -55,8 +55,9 @@ namespace DvidsUniversalXboxOneApp
             switch (type)
             {
                 case "podcast":
-                    RootObjectUrl urlDataPod = await MediaUrl.getUrl("video:" + videoId);
-                    System.Uri myPod = new System.Uri(urlDataPod.results.files[(urlDataPod.results.files.Count - 1)].src);
+                    RootObjectUrl urlDataPod = await MediaUrl.getUrl(videoId);
+                    System.Uri myPod = new System.Uri(urlDataPod.results.hls_url);
+                    Debug.WriteLine(urlDataPod);
                     Debug.WriteLine(myPod);
                     mediaPlayer.Source = myPod;
                     break;

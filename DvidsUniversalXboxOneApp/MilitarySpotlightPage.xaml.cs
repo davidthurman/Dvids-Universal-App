@@ -64,9 +64,9 @@ namespace DvidsUniversalXboxOneApp
                 PodcastEpisodeXamlDataCollections.Add(new PodcastEpisodeXamlData()
                 {
                     thumbnail = podcasts.results[x].thumbnail,
-                    id = podcasts.results[x].id,
+                    id = podcasts.results[x].asset_id,
                     title = podcasts.results[x].title,
-                    description = podcasts.results[x].description
+                    description = podcasts.results[x].short_description
                 });
             }
             episodesGrid.ItemsSource = PodcastEpisodeXamlDataCollections;

@@ -16,6 +16,7 @@ namespace DvidsUniversalXboxOneApp
         {
             var http = new HttpClient();
             var response = await http.GetAsync("https://api.dvidshub.net//podcast/get?id=" + id + "&api_key=key-5728b08b42577");
+            Debug.WriteLine("123123     " + "https://api.dvidshub.net//podcast/get?id=" + id + "&api_key=key-5728b08b42577");
             var result = await response.Content.ReadAsStringAsync();
 
             var serializer = new DataContractJsonSerializer(typeof(PodcastEpisodeRootObject));
@@ -60,6 +61,6 @@ namespace DvidsUniversalXboxOneApp
     {
         public List<string> messages { get; set; }
         public PageInfo page_info { get; set; }
-        public List<Result> results { get; set; }
+        public List<EpisodeResults> results { get; set; }
     }
 }

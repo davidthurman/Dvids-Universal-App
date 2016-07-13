@@ -11,7 +11,7 @@
         <MediaElement x:Name="mediaPlayer" 
                       IsFullWindow="True"
                       AutoPlay="True"
-                      Stretch="UniformToFill"
+                      Stretch="Uniform"
                       AreTransportControlsEnabled="True"/>
     </Grid>
         
