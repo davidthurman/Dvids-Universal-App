@@ -86,10 +86,10 @@
                         <Border BorderThickness="35"/>
                         <StackPanel VerticalAlignment="Center">
                             <Button Style="{StaticResource MenuButton}">DoD Warrior Games</Button>
-                            <Button Style="{StaticResource MenuButton}">Live</Button>
+                            <Button x:ConnectionId='5' Style="{StaticResource MenuButton}"                   >Live</Button>
                             <Button Style="{StaticResource MenuButton}">NewsStream</Button>
-                            <Button x:ConnectionId='5' Style="{StaticResource MenuButton}"                    >Shows</Button>
-                            <Button x:ConnectionId='6' Style="{StaticResource MenuButton}"                                >Military Spotlight</Button>
+                            <Button x:ConnectionId='6' Style="{StaticResource MenuButton}"                    >Shows</Button>
+                            <Button x:ConnectionId='7' Style="{StaticResource MenuButton}"                                >Military Spotlight</Button>
                             <Button Style="{StaticResource MenuButton}">Search</Button>
                             <Button Style="{StaticResource MenuButton}">About</Button>
                         </StackPanel>

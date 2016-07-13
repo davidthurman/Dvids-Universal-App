@@ -99,6 +99,10 @@
     <Compile Include="CustomTriggers\DeviceFamilyTrigger.cs" />
     <Compile Include="CustomTriggers\InputTypeTrigger.cs" />
     <Compile Include="Episode.cs" />
+    <Compile Include="LiveEpisodes.cs" />
+    <Compile Include="LivePage.xaml.cs">
+      <DependentUpon>LivePage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
@@ -141,6 +145,10 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Page Include="LivePage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>

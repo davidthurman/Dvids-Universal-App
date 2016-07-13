@@ -41,5 +41,9 @@ namespace DvidsUniversalXboxOneApp
         {
             contentFrame.Navigate(typeof(MilitarySpotlightPage));
         }
+        private void liveButton(object sender, RoutedEventArgs e)
+        {
+            contentFrame.Navigate(typeof(LivePage));
+        }
     }
 }

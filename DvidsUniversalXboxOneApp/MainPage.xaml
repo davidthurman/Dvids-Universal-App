@@ -86,7 +86,7 @@
                         <Border BorderThickness="35"/>
                         <StackPanel VerticalAlignment="Center">
                             <Button Style="{StaticResource MenuButton}">DoD Warrior Games</Button>
-                            <Button Style="{StaticResource MenuButton}">Live</Button>
+                            <Button Style="{StaticResource MenuButton}" Click="liveButton">Live</Button>
                             <Button Style="{StaticResource MenuButton}">NewsStream</Button>
                             <Button Style="{StaticResource MenuButton}" Click="showsButton">Shows</Button>
                             <Button Style="{StaticResource MenuButton}" Click="militarySpotlightButton">Military Spotlight</Button>
