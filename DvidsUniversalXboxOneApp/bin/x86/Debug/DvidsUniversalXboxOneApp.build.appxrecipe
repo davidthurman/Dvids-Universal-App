@@ -343,6 +343,18 @@
     <AppxPackagedFile Include="C:\Users\David\.nuget\packages\System.Xml.XmlSerializer\4.0.10\lib\netcore50\System.Xml.XmlSerializer.dll">
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\David\Documents\Visual Studio 2015\Projects\DvidsUniversalXboxOneApp\DvidsUniversalXboxOneApp\aboutImage1.jpg">
+      <PackagePath>aboutImage1.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\David\Documents\Visual Studio 2015\Projects\DvidsUniversalXboxOneApp\DvidsUniversalXboxOneApp\aboutImage2.jpg">
+      <PackagePath>aboutImage2.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\David\Documents\Visual Studio 2015\Projects\DvidsUniversalXboxOneApp\DvidsUniversalXboxOneApp\aboutImage3.jpg">
+      <PackagePath>aboutImage3.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\David\Documents\Visual Studio 2015\Projects\DvidsUniversalXboxOneApp\DvidsUniversalXboxOneApp\aboutImage4.jpg">
+      <PackagePath>aboutImage4.jpg</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\David\Documents\Visual Studio 2015\Projects\DvidsUniversalXboxOneApp\DvidsUniversalXboxOneApp\Assets\bg1.jpg">
       <PackagePath>Assets\bg1.jpg</PackagePath>
     </AppxPackagedFile>

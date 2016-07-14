@@ -23,6 +23,7 @@ using System.Net.Http;
 using System.Runtime.Serialization.Json;
 using Windows.Storage.Streams;
 using Windows.UI.Xaml.Media.Imaging;
+using Windows.UI.ViewManagement;
 
 // The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=402352&clcid=0x409
 
@@ -33,6 +34,8 @@ namespace DvidsUniversalXboxOneApp
         public MainPage()
         {
             this.InitializeComponent();
+            //var view = ApplicationView.GetForCurrentView();
+            //view.TryEnterFullScreenMode();
             Random rnd = new Random();
             int home = rnd.Next(1, 4);
             Debug.WriteLine(rnd.Next(1, 4));

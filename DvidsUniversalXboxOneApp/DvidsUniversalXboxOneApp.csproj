@@ -139,6 +139,10 @@
     <None Include="DvidsUniversalXboxOneApp_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="aboutImage1.jpg" />
+    <Content Include="aboutImage2.jpg" />
+    <Content Include="aboutImage3.jpg" />
+    <Content Include="aboutImage4.jpg" />
     <Content Include="Assets\bg1.jpg" />
     <Content Include="Assets\bg2.jpg" />
     <Content Include="Assets\bg3.jpg" />

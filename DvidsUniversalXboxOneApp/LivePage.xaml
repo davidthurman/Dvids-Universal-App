@@ -24,7 +24,7 @@
                                             <StackPanel>
                                                 <Button  Click="mediaPlayer" Tag="{Binding ButtonTag}">
                                                 <StackPanel>
-                                                        <Grid Height="250" Width="400" BorderThickness="3">
+                                                        <Grid Height="250" Width="375" BorderThickness="3">
                                                             <Grid.Background>
                                                                 <ImageBrush ImageSource="{Binding LiveThumbnails}"/>
                                                             </Grid.Background>
