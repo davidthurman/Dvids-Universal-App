@@ -13,6 +13,7 @@
                       AutoPlay="True"
                       Stretch="Uniform"
                       AreTransportControlsEnabled="True"/>
+        <!--<Button Background="Red" Opacity=".5" Width="50" Height="50" VerticalAlignment="Top" HorizontalAlignment="Right" Foreground="White">X</Button>-->
     </Grid>
         
 
