@@ -148,6 +148,7 @@
     <Content Include="Assets\bg3.jpg" />
     <Content Include="Defense.jpg" />
     <Content Include="DefenseTVTransparentLogo.png" />
+    <Content Include="logo_620x300.png" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
     <Content Include="Assets\SplashScreen.scale-200.png" />
@@ -157,6 +158,8 @@
     <Content Include="Assets\StoreLogo.png" />
     <Content Include="Assets\Wide310x150Logo.scale-200.png" />
     <Content Include="SplashPage.png" />
+    <Content Include="splash_1240x600.jpg" />
+    <Content Include="splash_2480x1200.jpg" />
   </ItemGroup>
   <ItemGroup>
     <ApplicationDefinition Include="App.xaml">

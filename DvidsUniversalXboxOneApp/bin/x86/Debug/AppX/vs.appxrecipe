@@ -16,7 +16,7 @@
     <PackageRegistrationPath>
     </PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
-    <RegisteredManifestChecksum>86343DF631A078E67BD2913AECCB1A2E3DFC2BE6C4B26991CEB5C4A4916A61DB</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>D92522A9D1EBF18B6820043A8181569EB11409F5AB5498E87B9401432A7822A6</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>7643cd1d-c665-4958-a409-23b714331b92_1.0.0.0_x86__ywwvhtjmx9rt8</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>7643cd1d-c665-4958-a409-23b714331b92_ywwvhtjmx9rt8!App</RegisteredUserModeAppID>
     <RegisteredPackageID>7643cd1d-c665-4958-a409-23b714331b92</RegisteredPackageID>
@@ -28,13 +28,13 @@
     <AppXManifest Include="C:\Users\David\Documents\Visual Studio 2015\Projects\DvidsUniversalXboxOneApp\DvidsUniversalXboxOneApp\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-07-14T18:30:54.963</Modified>
+      <Modified>2016-07-14T19:09:58.397</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\David\Documents\Visual Studio 2015\Projects\DvidsUniversalXboxOneApp\DvidsUniversalXboxOneApp\bin\x86\Debug\DvidsUniversalXboxOneApp.exe">
       <PackagePath>entrypoint\DvidsUniversalXboxOneApp.exe</PackagePath>
-      <Modified>2016-07-14T18:24:49.222</Modified>
+      <Modified>2016-07-14T19:09:57.200</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\David\.nuget\packages\Microsoft.CSharp\4.0.0\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -492,9 +492,22 @@
       <PackagePath>Defense.jpg</PackagePath>
       <Modified>2016-07-08T14:32:36.344</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\David\Documents\Visual Studio 2015\Projects\DvidsUniversalXboxOneApp\DvidsUniversalXboxOneApp\splash_1240x600.jpg">
+      <PackagePath>splash_1240x600.jpg</PackagePath>
+      <Modified>2016-07-14T18:43:13.834</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\David\Documents\Visual Studio 2015\Projects\DvidsUniversalXboxOneApp\DvidsUniversalXboxOneApp\splash_2480x1200.jpg">
+      <PackagePath>splash_2480x1200.jpg</PackagePath>
+      <Modified>2016-07-14T18:43:13.831</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\David\Documents\Visual Studio 2015\Projects\DvidsUniversalXboxOneApp\DvidsUniversalXboxOneApp\DefenseTVTransparentLogo.png">
       <PackagePath>DefenseTVTransparentLogo.png</PackagePath>
       <Modified>2016-07-08T14:53:58.910</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\David\Documents\Visual Studio 2015\Projects\DvidsUniversalXboxOneApp\DvidsUniversalXboxOneApp\logo_620x300.png">
+      <PackagePath>logo_620x300.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-07-14T19:09:34.742</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\David\Documents\Visual Studio 2015\Projects\DvidsUniversalXboxOneApp\DvidsUniversalXboxOneApp\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
@@ -531,7 +544,6 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\David\Documents\Visual Studio 2015\Projects\DvidsUniversalXboxOneApp\DvidsUniversalXboxOneApp\SplashPage.png">
       <PackagePath>SplashPage.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2016-07-12T13:50:14.153</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\David\Documents\Visual Studio 2015\Projects\DvidsUniversalXboxOneApp\DvidsUniversalXboxOneApp\Properties\Default.rd.xml">
@@ -548,11 +560,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\David\Documents\Visual Studio 2015\Projects\DvidsUniversalXboxOneApp\DvidsUniversalXboxOneApp\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2016-07-14T18:30:54.716</Modified>
+      <Modified>2016-07-14T19:09:58.115</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\David\Documents\Visual Studio 2015\Projects\DvidsUniversalXboxOneApp\DvidsUniversalXboxOneApp\bin\x86\Debug\Core\DvidsUniversalXboxOneApp.exe">
       <PackagePath>DvidsUniversalXboxOneApp.exe</PackagePath>
-      <Modified>2016-07-14T18:30:54.960</Modified>
+      <Modified>2016-07-14T19:09:58.391</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
