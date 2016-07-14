@@ -11,20 +11,20 @@
         <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
             <StackPanel Background="#404040">
                 <ScrollViewer x:ConnectionId='2' HorizontalScrollBarVisibility="Auto" x:Name="ShowMenuScroll" VerticalScrollBarVisibility="Disabled">
-                    <!-- Stack Panel for List of Shows 
-                    <Grid Width="400">
-                        <Grid.ColumnDefinitions>
-                            <ColumnDefinition Width="Auto" />
-                            <ColumnDefinition />
-                        </Grid.ColumnDefinitions>
-                        <TextBlock Text="Label" Width="150" />
-                        <TextBox Text="Value" Grid.Column="1" />
-                    </Grid>-->
+                    <!-- Stack Panel for List of Shows -->
+                    <StackPanel>
+                        <StackPanel>
+                            <TextBox x:ConnectionId='6' HorizontalAlignment="Stretch" Name="searchBox" Height="50"/>
+                        </StackPanel>
+                        <Button x:ConnectionId='5' HorizontalAlignment="Center" Width="150" Height="30"                      Foreground="#b3b3b3">Search</Button>
+                    </StackPanel>
+                    
 
-                    <StackPanel Orientation="Horizontal" Background="Beige">
-                        <TextBox x:ConnectionId='5' Name="searchBox" HorizontalAlignment="Stretch"/>
-                        <Button x:ConnectionId='6'                      Width="100" VerticalAlignment="Stretch"/>
-                    </StackPanel> 
+                    <!--
+                    <Grid Background="Beige">
+                        <TextBox Name="searchBox" HorizontalAlignment="Stretch"/>
+                        <Button Click="searchButton" Width="100" VerticalAlignment="Stretch"/>
+                    </Grid> --> 
                 </ScrollViewer>
                 <!-- List of Episodes -->
                 <ScrollViewer VerticalScrollBarVisibility="Visible">

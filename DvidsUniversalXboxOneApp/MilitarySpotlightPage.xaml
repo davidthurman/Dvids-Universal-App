@@ -10,7 +10,7 @@
     <Frame x:Name="militarySpotlightFrame">
         <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
             <StackPanel Background="#404040">
-                <ScrollViewer HorizontalScrollBarVisibility="Auto" x:Name="ShowMenuScroll" VerticalScrollBarVisibility="Disabled">
+                <ScrollViewer HorizontalScrollBarVisibility="Auto" x:Name="ShowMenuScroll" VerticalScrollBarVisibility="Disabled" >
                     <!-- Stack Panel for List of Shows -->
                     <StackPanel Orientation="Horizontal">
                         <Grid>
@@ -31,9 +31,10 @@
                     </StackPanel>
                 </ScrollViewer>
                 <!-- List of Episodes -->
-                <ScrollViewer VerticalScrollBarVisibility="Visible">
+                
                     <StackPanel>
                         <Grid>
+                        <ScrollViewer VerticalScrollBarVisibility="Visible" Height="1000">
                             <GridView x:Name="episodesGrid" ItemsSource="{Binding PodcastShowsXamlDataCollections}">
                                 <GridView.ItemTemplate>
                                     <DataTemplate>
@@ -47,9 +48,10 @@
                                     </DataTemplate>
                                 </GridView.ItemTemplate>
                             </GridView>
-                        </Grid>
+                        </ScrollViewer>
+                    </Grid>
                     </StackPanel>
-                </ScrollViewer>
+                
             </StackPanel>
         </Grid>
     </Frame>

@@ -223,3 +223,8 @@ C:\Users\David\Documents\Visual Studio 2015\Projects\DvidsUniversalXboxOneApp\Dv
 C:\Users\David\Documents\Visual Studio 2015\Projects\DvidsUniversalXboxOneApp\DvidsUniversalXboxOneApp\obj\x86\Debug\SearchPage.g.cs
 C:\Users\David\Documents\Visual Studio 2015\Projects\DvidsUniversalXboxOneApp\DvidsUniversalXboxOneApp\obj\x86\Debug\SearchPage.xaml
 C:\Users\David\Documents\Visual Studio 2015\Projects\DvidsUniversalXboxOneApp\DvidsUniversalXboxOneApp\obj\x86\Debug\SearchPage.xbf
+C:\Users\David\Documents\Visual Studio 2015\Projects\DvidsUniversalXboxOneApp\DvidsUniversalXboxOneApp\bin\x86\Debug\AboutPage.xbf
+C:\Users\David\Documents\Visual Studio 2015\Projects\DvidsUniversalXboxOneApp\DvidsUniversalXboxOneApp\obj\x86\Debug\AboutPage.g.i.cs
+C:\Users\David\Documents\Visual Studio 2015\Projects\DvidsUniversalXboxOneApp\DvidsUniversalXboxOneApp\obj\x86\Debug\AboutPage.g.cs
+C:\Users\David\Documents\Visual Studio 2015\Projects\DvidsUniversalXboxOneApp\DvidsUniversalXboxOneApp\obj\x86\Debug\AboutPage.xaml
+C:\Users\David\Documents\Visual Studio 2015\Projects\DvidsUniversalXboxOneApp\DvidsUniversalXboxOneApp\obj\x86\Debug\AboutPage.xbf

@@ -15,6 +15,23 @@
             <Setter Property="Padding" Value="20,15,100,15"/>
             <Setter Property="HorizontalAlignment" Value="Right"/>
             <Setter Property="Foreground" Value="AliceBlue"/>
+        <!--    <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Grid>
+                            <VisualStateManager.VisualStateGroups>
+                                <VisualStateGroup x:Name="CommonStates">
+                                    <VisualState x:Name="PointerOver">
+                                        <Storyboard>
+                                            <ColorAnimation Duration="0" To="#393185"/>
+                                        </Storyboard>
+                                    </VisualState>
+                                </VisualStateGroup>
+                            </VisualStateManager.VisualStateGroups>
+                        </Grid>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter> -->
         </Style>
     </Page.Resources>
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
@@ -90,7 +107,7 @@
                             <Button x:ConnectionId='8' Style="{StaticResource MenuButton}"                    >Shows</Button>
                             <Button x:ConnectionId='9' Style="{StaticResource MenuButton}"                                >Military Spotlight</Button>
                             <Button x:ConnectionId='10' Style="{StaticResource MenuButton}"                     >Search</Button>
-                            <Button Style="{StaticResource MenuButton}">About</Button>
+                            <Button x:ConnectionId='11' Style="{StaticResource MenuButton}"                    >About</Button>
                         </StackPanel>
                     </StackPanel>
                     <!-- <Rectangle Fill="Blue" ></Rectangle> -->

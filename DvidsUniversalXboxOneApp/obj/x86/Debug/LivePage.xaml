@@ -11,12 +11,15 @@
         <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
             <StackPanel Background="#404040">
                 <!-- List of Live Shows -->
+                
                     <StackPanel>
-                    <ScrollViewer VerticalScrollBarVisibility="Visible">
+                    
                         <Grid>
+                        <ScrollViewer VerticalScrollBarVisibility="Visible" Height="1000">
                             <GridView x:ConnectionId='2' x:Name="liveGrid" ItemsSource="{Binding LiveXamlDataCollections}">
                                 <GridView.ItemTemplate>
                                     <DataTemplate>
+                                    
                                         <StackPanel>
                                             <StackPanel>
                                                 <Button x:ConnectionId='3'                      Tag="{Binding ButtonTag}">
@@ -38,15 +41,19 @@
                                                                 <TextBlock Text="{Binding LiveDateStart}" Foreground="White" HorizontalAlignment="Center"/>
                                                             </Border>
                                                         </Grid>
+                                                    
                                                     </StackPanel>
                                             </Button>
                                             </StackPanel>
+
                                         </StackPanel>
-                                    </DataTemplate>
+                                    
+                                </DataTemplate>
                                 </GridView.ItemTemplate>
                             </GridView>
-                         </Grid>
-                    </ScrollViewer>
+                        </ScrollViewer>
+                    </Grid>
+                    
                 </StackPanel>
                 
             </StackPanel>

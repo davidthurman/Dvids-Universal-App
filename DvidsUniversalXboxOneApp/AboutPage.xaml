@@ -1,0 +1,28 @@
+﻿<Page
+    x:Class="DvidsUniversalXboxOneApp.AboutPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:DvidsUniversalXboxOneApp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Frame x:Name="liveFrame">
+        <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+            <StackPanel Background="#404040">
+                <Grid BorderThickness="100">
+                    <StackPanel>
+                        <TextBlock HorizontalAlignment="Center" FontSize="30" TextWrapping="Wrap" Foreground="White" Padding="0,0,20,0">
+                    DefenseTV is the first official online US Military HD internet site to bring important and often untold stories from the field to your connected device. Watch shows and news stories straight from our service men and women and catch live events as they unfold around the world. New content is added daily and available for free.
+                        </TextBlock>
+                        <TextBlock HorizontalAlignment="Center" FontSize="30" TextWrapping="Wrap" Foreground="White" Padding="0,20,0,0">
+                    DefenseTV is powered by DVIDSHub.net - Since 2004, DVIDS (Defense Video and Imagery Distribution System, operated by U.S. Army Central) has provided world media with reliable access to all branches of the U.S. Armed Forces and coalition partners serving overseas, helping fulfill the military’s obligation to provide maximum disclosure of information with minimum delay. With the use of today’s newest broadcast technologies and satellite capabilities provided to deployed units, and a distribution hub in Atlanta, Georgia, DVIDS makes available real-time broadcast-quality video, still images and print products, as well as immediate interview opportunities with service members, commanders and subject matter experts.
+
+                        </TextBlock>
+                    </StackPanel>
+                    
+                </Grid>
+            </StackPanel>
+        </Grid>
+    </Frame>
+</Page>

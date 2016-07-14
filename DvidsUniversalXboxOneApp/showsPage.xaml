@@ -30,9 +30,10 @@
                     </StackPanel>
                 </ScrollViewer>
                 <!-- List of Episodes -->
-                <ScrollViewer VerticalScrollBarVisibility="Visible">
+                
                     <StackPanel>
                         <Grid>
+                        <ScrollViewer VerticalScrollBarVisibility="Visible" Height="1000">
                             <GridView x:Name="episodesGrid" ItemsSource="{Binding EpisodeXamlDataCollections}">
                                 <GridView.ItemTemplate>
                                     <DataTemplate>
@@ -46,9 +47,10 @@
                                     </DataTemplate>
                                 </GridView.ItemTemplate>
                             </GridView>
-                        </Grid>
+                        </ScrollViewer>
+                    </Grid>
                     </StackPanel>
-                </ScrollViewer>
+                
             </StackPanel>
         </Grid>
     </Frame>

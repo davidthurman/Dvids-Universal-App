@@ -72,5 +72,9 @@ namespace DvidsUniversalXboxOneApp
         {
             contentFrame.Navigate(typeof(SearchPage));
         }
+        private void aboutButton(object sender, RoutedEventArgs e)
+        {
+            contentFrame.Navigate(typeof(AboutPage));
+        }
     }
 }

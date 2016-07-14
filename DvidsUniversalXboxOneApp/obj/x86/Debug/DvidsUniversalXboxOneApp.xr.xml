@@ -36,9 +36,9 @@
     <RootType FullName="Windows.UI.Xaml.Controls.Grid">
       <RootProperty Name="Background" />
       <RootProperty Name="Children" />
+      <RootProperty Name="BorderThickness" />
       <RootProperty Name="Height" />
       <RootProperty Name="Width" />
-      <RootProperty Name="BorderThickness" />
     </RootType>
     <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.ThemeResourceExtension" />
     <RootType FullName="Windows.UI.Xaml.Controls.StackPanel">
@@ -47,8 +47,19 @@
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="Orientation" />
     </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.TextBlock">
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="FontSize" />
+      <RootProperty Name="TextWrapping" />
+      <RootProperty Name="Foreground" />
+      <RootProperty Name="Padding" />
+      <RootProperty Name="Inlines" />
+      <RootProperty Name="Text" />
+    </RootType>
+    <RootType FullName="DvidsUniversalXboxOneApp.AboutPage" />
     <RootType FullName="Windows.UI.Xaml.Controls.ScrollViewer">
       <RootProperty Name="VerticalScrollBarVisibility" />
+      <RootProperty Name="Height" />
       <RootProperty Name="Content" />
       <RootProperty Name="HorizontalScrollBarVisibility" />
     </RootType>
@@ -64,8 +75,10 @@
       <RootProperty Name="Tag" />
       <RootProperty Name="Content" />
       <RootProperty Name="Style" />
+      <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="Width" />
-      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="Foreground" />
       <RootEvent Name="Click" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Media.ImageBrush">
@@ -80,13 +93,6 @@
     <RootType FullName="Windows.UI.Xaml.Media.SolidColorBrush">
       <RootProperty Name="Color" />
       <RootProperty Name="Opacity" />
-    </RootType>
-    <RootType FullName="Windows.UI.Xaml.Controls.TextBlock">
-      <RootProperty Name="Text" />
-      <RootProperty Name="Foreground" />
-      <RootProperty Name="HorizontalAlignment" />
-      <RootProperty Name="FontSize" />
-      <RootProperty Name="TextWrapping" />
     </RootType>
     <RootType FullName="DvidsUniversalXboxOneApp.LivePage" />
     <RootType FullName="Windows.UI.Xaml.Controls.Control">
@@ -143,6 +149,7 @@
     <RootType FullName="Windows.UI.Xaml.Controls.TextBox">
       <RootProperty Name="Name" />
       <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="Height" />
     </RootType>
     <RootType FullName="DvidsUniversalXboxOneApp.SearchPage" />
     <RootType FullName="DvidsUniversalXboxOneApp.showsPage" />
