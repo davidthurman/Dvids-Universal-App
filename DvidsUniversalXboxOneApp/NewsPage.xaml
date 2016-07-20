@@ -40,6 +40,13 @@
                                 <GridView.ItemTemplate>
                                     <DataTemplate>
                                         <Button  Click="mediaPlayer" Tag="{Binding EpisodeButtonTag}">
+                                            <ToolTipService.ToolTip>
+                                                <StackPanel Background="#404040" Padding="20,20,20,20">
+                                                    <!--<TextBlock Text="{Binding title}" FontSize="14" Foreground="White" TextWrapping="Wrap" Padding="0,0,0,20" HorizontalAlignment="Center"/>-->
+                                                    <Image Source="{Binding EpisodeThumbnails}" Width="225"/>
+                                                    <!--<TextBlock Text="{Binding description}" Foreground="White" Padding="0,20,0,0" TextWrapping="Wrap"/>-->
+                                                </StackPanel>
+                                            </ToolTipService.ToolTip>
                                             <Grid Height="125" Width="200" BorderThickness="3">
                                                 <Grid.Background>
                                                     <ImageBrush ImageSource="{Binding EpisodeThumbnails}"/>

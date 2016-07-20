@@ -21,6 +21,8 @@
     <RootPropertyPathName Name="SearchXamlDataCollections" />
     <RootPropertyPathName Name="SearchButtonTag" />
     <RootPropertyPathName Name="SearchThumbnails" />
+    <RootPropertyPathName Name="EpisodeDescription" />
+    <RootPropertyPathName Name="EpisodeTitle" />
     <RootPropertyPathName Name="XamlDataCollections" />
     <RootPropertyPathName Name="ShowThumbnails" />
   </Roots.PropertyPathNames>

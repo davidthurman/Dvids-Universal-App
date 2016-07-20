@@ -93,6 +93,6 @@ namespace DvidsUniversalXboxOneApp
         [DataMember]
         public PageInfo page_info { get; set; }
         [DataMember]
-        public List<Result> results { get; set; }
+        public List<ResultEpisodes> results { get; set; }
     }
 }
