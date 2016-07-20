@@ -28,6 +28,8 @@ namespace DvidsUniversalXboxOneApp
         ObservableCollection<PodcastShowsXamlData> _PodcastShowsXamlDataCollections = new ObservableCollection<PodcastShowsXamlData>();
         public ObservableCollection<PodcastEpisodeXamlData> PodcastEpisodeXamlDataCollections { get { return _PodcastEpisodeXamlDataCollections; } }
         ObservableCollection<PodcastEpisodeXamlData> _PodcastEpisodeXamlDataCollections = new ObservableCollection<PodcastEpisodeXamlData>();
+        public ObservableCollection<VideoAssetsXamlData> VideoXamlDataCollections { get { return _VideoXamlDataCollections; } }
+        ObservableCollection<VideoAssetsXamlData> _VideoXamlDataCollections = new ObservableCollection<VideoAssetsXamlData>();
 
         public MilitarySpotlightPage()
         {
@@ -58,6 +60,13 @@ namespace DvidsUniversalXboxOneApp
             Button button = (Button)sender;
             Debug.WriteLine(((String)button.Tag));
             PodcastEpisodeRootObject podcasts = await PodcastEpisode.getEpisodes(((String)button.Tag));
+            Debug.WriteLine("TESTESTEST     " + podcasts.results[0].asset_id);
+            string[] desciptions = new string[podcasts.results.Count];
+            //for (int x = 0; x < podcasts.results.Count; x++)
+            //{
+            //    AssettEpisodeRootObject assets = await VideoAssets.getDescription(podcasts.results[x].asset_id);
+            //}
+
 
             for (int x = 0; x < podcasts.results.Count; x++)
             {
@@ -70,6 +79,11 @@ namespace DvidsUniversalXboxOneApp
                 });
             }
             episodesGrid.ItemsSource = PodcastEpisodeXamlDataCollections;
+
+        }
+        public void getDescriptions()
+        {
+            
 
         }
         public void mediaPlayer(object sender, RoutedEventArgs e)
@@ -91,6 +105,10 @@ namespace DvidsUniversalXboxOneApp
             public string title { get; set; }
             public string description { get; set; }
             public string thumbnail { get; set; }
+        }
+        public class VideoAssetsXamlData
+        {
+            public string assetDescription { get; set; }
         }
     }
     

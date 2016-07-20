@@ -131,6 +131,7 @@
     <Compile Include="showsPage.xaml.cs">
       <DependentUpon>showsPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="VideoAssets.cs" />
   </ItemGroup>
   <ItemGroup>
     <AppxManifest Include="Package.appxmanifest">
