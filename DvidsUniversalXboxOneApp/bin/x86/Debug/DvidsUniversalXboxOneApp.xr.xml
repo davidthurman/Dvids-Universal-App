@@ -15,14 +15,14 @@
     <RootPropertyPathName Name="podcastThumbnails" />
     <RootPropertyPathName Name="EpisodeXamlDataCollections" />
     <RootPropertyPathName Name="EpisodeButtonTag" />
+    <RootPropertyPathName Name="EpisodeDescription" />
     <RootPropertyPathName Name="EpisodeThumbnails" />
+    <RootPropertyPathName Name="EpisodeTitle" />
     <RootPropertyPathName Name="NewsSubjectsXamlDataCollections" />
     <RootPropertyPathName Name="SubjectTitle" />
     <RootPropertyPathName Name="SearchXamlDataCollections" />
     <RootPropertyPathName Name="SearchButtonTag" />
     <RootPropertyPathName Name="SearchThumbnails" />
-    <RootPropertyPathName Name="EpisodeDescription" />
-    <RootPropertyPathName Name="EpisodeTitle" />
     <RootPropertyPathName Name="XamlDataCollections" />
     <RootPropertyPathName Name="ShowThumbnails" />
   </Roots.PropertyPathNames>

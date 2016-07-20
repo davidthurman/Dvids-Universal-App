@@ -142,7 +142,9 @@ namespace DvidsUniversalXboxOneApp
                 NewsEpisodeXamlDataCollections.Add(new NewsEpisodesXamlData()
                 {
                     EpisodeThumbnails = episodes.results[x].thumbnail,
-                    EpisodeButtonTag = episodes.results[x].id
+                    EpisodeButtonTag = episodes.results[x].id,
+                    EpisodeTitle = episodes.results[x].title,
+                    EpisodeDescription = episodes.results[x].short_description
                 });
             }
             episodesGrid.ItemsSource = NewsEpisodeXamlDataCollections;
@@ -159,6 +161,8 @@ namespace DvidsUniversalXboxOneApp
         {
             public string EpisodeThumbnails { get; set; }
             public string EpisodeButtonTag { get; set; }
+            public string EpisodeTitle { get; set; }
+            public string EpisodeDescription { get; set; }
         }
 
         public void mediaPlayer(object sender, RoutedEventArgs e)

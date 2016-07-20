@@ -88,7 +88,7 @@ namespace DvidsUniversalXboxOneApp
         [DataMember]
         public List<string> messages { get; set; }
         [DataMember]
-        public List<Result> results { get; set; }
+        public List<NewsStreamResult> results { get; set; }
         [DataMember]
         public PageInfo page_info { get; set; }
     }
