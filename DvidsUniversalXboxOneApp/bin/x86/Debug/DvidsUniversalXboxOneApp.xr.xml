@@ -9,8 +9,8 @@
     <RootPropertyPathName Name="PodcastShowsXamlDataCollections" />
     <RootPropertyPathName Name="id" />
     <RootPropertyPathName Name="description" />
-    <RootPropertyPathName Name="title" />
     <RootPropertyPathName Name="thumbnail" />
+    <RootPropertyPathName Name="title" />
     <RootPropertyPathName Name="PodcastEpisodeXamlDataCollections" />
     <RootPropertyPathName Name="podcastThumbnails" />
     <RootPropertyPathName Name="EpisodeXamlDataCollections" />
@@ -63,6 +63,7 @@
     <RootType FullName="Windows.UI.Xaml.Controls.Image">
       <RootProperty Name="Source" />
       <RootProperty Name="Name" />
+      <RootProperty Name="Width" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.TextBlock">
       <RootProperty Name="HorizontalAlignment" />
