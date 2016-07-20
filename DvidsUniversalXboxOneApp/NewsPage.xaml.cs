@@ -15,13 +15,9 @@ using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 
-// The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=234238
-
 namespace DvidsUniversalXboxOneApp
 {
-    /// <summary>
-    /// An empty page that can be used on its own or navigated to within a Frame.
-    /// </summary>
+
     public sealed partial class NewsPage : Page
     {
         public ObservableCollection<NewsSubjectsXamlData> NewsSubjectsXamlDataCollections { get { return _NewsSubjectsXamlDataCollections; } }
@@ -86,15 +82,6 @@ namespace DvidsUniversalXboxOneApp
                 ButtonTag = "family"
             });
 
-            //for (int x = 0; x < subjectsList.results.Count; x++)
-            //{
-            //    NewsSubjectsXamlDataCollections.Add(new NewsSubjectsXamlData()
-            //    {
-            //        ShowThumbnails = subjectsList.results[x].thumbnail,
-            //        ButtonTag = subjectsList.results[x].id
-            //    });
-            //}
-
             showsGrid.ItemsSource = NewsSubjectsXamlDataCollections;
         }
 
@@ -153,7 +140,6 @@ namespace DvidsUniversalXboxOneApp
 
         public class NewsSubjectsXamlData
         {
-            //public string ShowThumbnails { get; set; }
             public string SubjectTitle { get; set; }
             public string ButtonTag { get; set; }
         }

@@ -18,13 +18,6 @@
                         </StackPanel>
                         <Button HorizontalAlignment="Center" Width="150" Height="30" Click="searchButton" Foreground="#b3b3b3">Search</Button>
                     </StackPanel>
-                    
-
-                    <!--
-                    <Grid Background="Beige">
-                        <TextBox Name="searchBox" HorizontalAlignment="Stretch"/>
-                        <Button Click="searchButton" Width="100" VerticalAlignment="Stretch"/>
-                    </Grid> --> 
                 </ScrollViewer>
                 <!-- List of Episodes -->
                 <ScrollViewer VerticalScrollBarVisibility="Visible">

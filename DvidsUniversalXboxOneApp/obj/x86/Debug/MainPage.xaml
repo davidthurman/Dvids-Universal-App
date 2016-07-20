@@ -9,9 +9,6 @@
     mc:Ignorable="d"
 >
     <Page.Resources>
-        
-        
-        
         <Style TargetType="Button" x:Key="MenuButton">
             <Setter Property="Background" Value="Transparent"/>
             <Setter Property="FontSize" Value="22"/>
@@ -45,7 +42,6 @@
                                             </ObjectAnimationUsingKeyFrames>
                                         </Storyboard>
                                     </VisualState>
-                                    
                                 </VisualStateGroup>
                                 <VisualStateGroup x:Name="FocusStates">
                                     <VisualState x:Name="Focused">
@@ -96,23 +92,6 @@
                     </ControlTemplate>
                 </Setter.Value>
             </Setter>
-            <!--    <Setter Property="Template">
-                <Setter.Value>
-                    <ControlTemplate TargetType="Button">
-                        <Grid>
-                            <VisualStateManager.VisualStateGroups>
-                                <VisualStateGroup x:Name="CommonStates">
-                                    <VisualState x:Name="PointerOver">
-                                        <Storyboard>
-                                            <ColorAnimation Duration="0" To="#393185"/>
-                                        </Storyboard>
-                                    </VisualState>
-                                </VisualStateGroup>
-                            </VisualStateManager.VisualStateGroups>
-                        </Grid>
-                    </ControlTemplate>
-                </Setter.Value>
-            </Setter> -->
         </Style>
     </Page.Resources>
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
@@ -191,29 +170,9 @@
                             <Button x:ConnectionId='11' Style="{StaticResource MenuButton}" HorizontalAlignment="Stretch"                    >About</Button>
                         </StackPanel>
                     </StackPanel>
-                    <!-- <Rectangle Fill="Blue" ></Rectangle> -->
                 </SplitView.Pane>
             </SplitView>
         </Frame>
-        
-        <!--
-
-        <RelativePanel Grid.Row="1">
-            <Button MinHeight="100"></Button>
-           
-            <StackPanel Name="myPanel" Orientation="Vertical" VerticalAlignment="Top" RelativePanel.AlignLeftWithPanel="True" RelativePanel.AlignRightWithPanel="True">
-                <Button RelativePanel.AlignLeftWithPanel="True" >DoD Warrior Games</Button>
-                <Button>Live</Button>
-                <Button>NewsStream</Button>
-                <Button>Shows</Button>
-                <Button>Military Spotlight</Button>
-                <Button>Search</Button>
-                <Button RelativePanel.AlignRightWithPanel="True">About</Button>
-            </StackPanel>
-            
-        </RelativePanel>
-        -->
-        
     </Grid>
 </Page>
 

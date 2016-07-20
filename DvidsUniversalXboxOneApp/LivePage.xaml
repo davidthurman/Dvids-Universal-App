@@ -11,19 +11,16 @@
         <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
             <StackPanel Background="#404040">
                 <!-- List of Live Shows -->
-                
                     <StackPanel>
-                    
                         <Grid>
                         <ScrollViewer VerticalScrollBarVisibility="Visible" Height="1000">
                             <GridView x:Name="liveGrid" ItemsSource="{Binding LiveXamlDataCollections}">
                                 <GridView.ItemTemplate>
                                     <DataTemplate>
-                                    
                                         <StackPanel>
                                             <StackPanel>
                                                 <Button  Click="mediaPlayer" Tag="{Binding ButtonTag}">
-                                                <StackPanel>
+                                                    <StackPanel>
                                                         <Grid Height="250" Width="375" BorderThickness="3">
                                                             <Grid.Background>
                                                                 <ImageBrush ImageSource="{Binding LiveThumbnails}"/>
@@ -41,21 +38,16 @@
                                                                 <TextBlock Text="{Binding LiveDateStart}" Foreground="White" HorizontalAlignment="Center"/>
                                                             </Border>
                                                         </Grid>
-                                                    
                                                     </StackPanel>
-                                            </Button>
+                                                </Button>
                                             </StackPanel>
-
                                         </StackPanel>
-                                    
                                 </DataTemplate>
                                 </GridView.ItemTemplate>
                             </GridView>
                         </ScrollViewer>
                     </Grid>
-                    
                 </StackPanel>
-                
             </StackPanel>
         </Grid>
     </Frame>

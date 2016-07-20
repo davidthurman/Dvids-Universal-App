@@ -19,9 +19,6 @@ using Windows.UI.Xaml.Navigation;
 
 namespace DvidsUniversalXboxOneApp
 {
-    /// <summary>
-    /// An empty page that can be used on its own or navigated to within a Frame.
-    /// </summary>
     public sealed partial class LivePage : Page
     {
         public ObservableCollection<LiveXamlData> LiveXamlDataCollections { get { return _LiveXamlDataCollections; } }
@@ -61,10 +58,6 @@ namespace DvidsUniversalXboxOneApp
         {
             Button button = (Button)sender;
             Debug.WriteLine(((String)button.Tag));
-            //Dictionary<string, string> myDictionary = new Dictionary<string, string>();
-            //myDictionary.Add("type", "podcast");
-            //myDictionary.Add("id", ((String)button.Tag));
-            //militarySpotlightFrame.Navigate(typeof(MediaPlayer), myDictionary);
         }
     }
 }

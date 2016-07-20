@@ -8,34 +8,7 @@
     mc:Ignorable="d">
 
     <Frame x:ConnectionId='1' x:Name="liveFrame">
-
-        <!--<Grid Background="#404040">
-            <Grid.RowDefinitions>
-                <RowDefinition Height="*"/>
-
-            </Grid.RowDefinitions>
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="*"/>
-            </Grid.ColumnDefinitions>
-
-            <StackPanel Background="Bisque" Grid.Row="0" Grid.Column="0">
-                <Image Source="aboutImage1.jpg" />
-                
-                <Image Source="aboutImage2.jpg"/>
-
-                <Image Source="aboutImage3.jpg" />
-            </StackPanel>
-        </Grid>-->
-
-
-
         <Grid Background="#404040">
-            <!--<StackPanel Background="#404040">
-                <Grid VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Width="400" Height="Auto">
-                    <StackPanel Background="AliceBlue" VerticalAlignment="Stretch">-->
-        
-            <!--<StackPanel Orientation="Horizontal" HorizontalAlignment="Stretch" Background="AliceBlue">
-                -->
             <StackPanel>
                 <Border Padding="100,100,100,75">
                     <StackPanel >
@@ -51,45 +24,8 @@
                     <Border Padding="0,0,0,0">
                         <Image Source="aboutImage4.jpg"/>
                     </Border>
-                    
-                    <!--<Image Source="aboutImage2.jpg" Width="300"/>
-                    <Image Source="aboutImage3.jpg" Width="300"/>-->
                 </StackPanel>
-                
             </StackPanel>
-            
-                
-            
-            <!--
-                <StackPanel Background="Bisque" Height="750">
-                    
-                        <Image Source="aboutImage1.jpg" />
-                   
-                        <Image Source="aboutImage2.jpg"/>
-
-                        <Image Source="aboutImage3.jpg" />
-
-                </StackPanel>
-
-                
-
-            </StackPanel>-->
-            
-                         
-                         <!--<Image Source="aboutImage2.jpg"/>
-                         <Image Source="aboutImage3.jpg"/>-->
-            <!--</StackPanel>-->
-                    <!--<StackPanel>
-                            <TextBlock HorizontalAlignment="Center" FontSize="3" TextWrapping="Wrap" Foreground="White" Padding="0,0,20,0">
-                    DefenseTV is the first official online US Military HD internet site to bring important and often untold stories from the field to your connected device. Watch shows and news stories straight from our service men and women and catch live events as they unfold around the world. New content is added daily and available for free.
-                            </TextBlock>
-                            <TextBlock HorizontalAlignment="Center" FontSize="3" TextWrapping="Wrap" Foreground="White" Padding="0,20,0,0">
-                    DefenseTV is powered by DVIDSHub.net - Since 2004, DVIDS (Defense Video and Imagery Distribution System, operated by U.S. Army Central) has provided world media with reliable access to all branches of the U.S. Armed Forces and coalition partners serving overseas, helping fulfill the military’s obligation to provide maximum disclosure of information with minimum delay. With the use of today’s newest broadcast technologies and satellite capabilities provided to deployed units, and a distribution hub in Atlanta, Georgia, DVIDS makes available real-time broadcast-quality video, still images and print products, as well as immediate interview opportunities with service members, commanders and subject matter experts.
-
-                            </TextBlock>
-                        </StackPanel>-->
-                <!--</Grid>
-            </StackPanel>-->
         </Grid>
     </Frame>
 </Page>

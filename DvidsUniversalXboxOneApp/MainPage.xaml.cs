@@ -34,8 +34,6 @@ namespace DvidsUniversalXboxOneApp
         public MainPage()
         {
             this.InitializeComponent();
-            //var view = ApplicationView.GetForCurrentView();
-            //view.TryEnterFullScreenMode();
             Random rnd = new Random();
             int home = rnd.Next(1, 4);
             Debug.WriteLine(rnd.Next(1, 4));

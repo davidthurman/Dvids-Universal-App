@@ -30,7 +30,6 @@
                     </StackPanel>
                 </ScrollViewer>
                 <!-- List of Episodes -->
-                
                     <StackPanel>
                         <Grid>
                         <ScrollViewer VerticalScrollBarVisibility="Visible" Height="1000">
@@ -57,7 +56,6 @@
                         </ScrollViewer>
                     </Grid>
                     </StackPanel>
-                
             </StackPanel>
         </Grid>
     </Frame>
