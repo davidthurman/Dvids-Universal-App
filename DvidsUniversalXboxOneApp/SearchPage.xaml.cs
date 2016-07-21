@@ -41,7 +41,9 @@ namespace DvidsUniversalXboxOneApp
                     SearchXamlDataCollections.Add(new SearchXamlData()
                     {
                         SearchThumbnails = episodes.results[x].thumbnail,
-                        SearchButtonTag = episodes.results[x].id
+                        SearchButtonTag = episodes.results[x].id,
+                        SearchTitle = episodes.results[x].title,
+                        SearchDescription = episodes.results[x].short_description
                     });
                 }
             }
@@ -52,6 +54,8 @@ namespace DvidsUniversalXboxOneApp
         {
             public string SearchThumbnails { get; set; }
             public string SearchButtonTag { get; set; }
+            public string SearchTitle { get; set; }
+            public string SearchDescription { get; set; }
         }
 
         public void mediaPlayer(object sender, RoutedEventArgs e)

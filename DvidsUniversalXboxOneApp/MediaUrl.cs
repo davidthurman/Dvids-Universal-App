@@ -20,9 +20,13 @@ namespace DvidsUniversalXboxOneApp
             Debug.WriteLine("TESTING");
             Debug.WriteLine("https://api.dvidshub.net//asset?id=" + id + "&api_key=key-5728b08b42577");
             var result = await response.Content.ReadAsStringAsync();
+            Debug.WriteLine("2");
             var serializer = new DataContractJsonSerializer(typeof(RootObjectUrl));
+            Debug.WriteLine("3");
             var ms = new MemoryStream(Encoding.UTF8.GetBytes(result));
+            Debug.WriteLine("4");
             var data = (RootObjectUrl)serializer.ReadObject(ms);
+            Debug.WriteLine("5");
             return data;
         }
     }

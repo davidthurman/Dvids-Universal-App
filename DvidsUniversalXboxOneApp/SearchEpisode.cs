@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Net.Http;
@@ -16,7 +17,8 @@ namespace DvidsUniversalXboxOneApp
         {
 
             var http = new HttpClient();
-            var response = await http.GetAsync("https://api.dvidshub.net/search?q=" + query + "&max_results=2&api_key=key-5728b08b42577");
+            var response = await http.GetAsync("https://api.dvidshub.net/search?q=" + query + "&max_results=1000&api_key=key-5728b08b42577");
+            Debug.WriteLine("https://api.dvidshub.net/search?q=" + query + "&max_results=2&api_key=key-5728b08b42577");
             var result = await response.Content.ReadAsStringAsync();
 
             var serializer = new DataContractJsonSerializer(typeof(SearchRootObject));

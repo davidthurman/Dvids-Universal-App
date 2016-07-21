@@ -22,7 +22,9 @@
     <RootPropertyPathName Name="SubjectTitle" />
     <RootPropertyPathName Name="SearchXamlDataCollections" />
     <RootPropertyPathName Name="SearchButtonTag" />
+    <RootPropertyPathName Name="SearchDescription" />
     <RootPropertyPathName Name="SearchThumbnails" />
+    <RootPropertyPathName Name="SearchTitle" />
     <RootPropertyPathName Name="XamlDataCollections" />
     <RootPropertyPathName Name="ShowThumbnails" />
   </Roots.PropertyPathNames>

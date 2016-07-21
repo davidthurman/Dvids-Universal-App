@@ -59,6 +59,7 @@ namespace DvidsUniversalXboxOneApp
                     mediaPlayer.Source = myPod;
                     break;
                 case "show":
+                    Debug.WriteLine("5431324523453245       " + videoId);
                     RootObjectUrl urlDataShow = await MediaUrl.getUrl(videoId);
                     System.Uri myVid = new System.Uri(urlDataShow.results.files[(urlDataShow.results.files.Count - 1)].src);
                     mediaPlayer.Source = myVid;
