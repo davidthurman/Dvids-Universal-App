@@ -43,11 +43,15 @@
                                                     <TextBlock Text="{Binding EpisodeDescription}" Foreground="White" Padding="0,20,0,0" TextWrapping="Wrap"/>
                                                 </StackPanel>
                                             </ToolTipService.ToolTip>
-                                            <Grid Height="125" Width="200" BorderThickness="3">
-                                                <Grid.Background>
-                                                    <ImageBrush ImageSource="{Binding EpisodeThumbnails}"/>
-                                                </Grid.Background>
-                                            </Grid>
+                                            <StackPanel Height="185">
+                                                <Grid Height="125" Width="200" BorderThickness="3">
+                                                    <Grid.Background>
+                                                        <ImageBrush ImageSource="{Binding EpisodeThumbnails}"/>
+                                                    </Grid.Background>
+                                                </Grid>
+                                                <TextBlock Width="200" Foreground="White" Text="{Binding EpisodeTitle}" TextWrapping="Wrap" />
+                                            </StackPanel>
+                                            
                                         </Button>
                                     </DataTemplate>
                                 </GridView.ItemTemplate>

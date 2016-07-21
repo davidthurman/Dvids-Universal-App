@@ -6,9 +6,7 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
-
     <Frame x:ConnectionId='1' x:Name="militarySpotlightFrame">
-        
         <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
             <StackPanel Background="#404040">
                 <ScrollViewer x:ConnectionId='2' HorizontalScrollBarVisibility="Auto" x:Name="ShowMenuScroll" VerticalScrollBarVisibility="Disabled" >
@@ -32,7 +30,6 @@
                     </StackPanel>
                 </ScrollViewer>
                 <!-- List of Episodes -->
-                
                     <StackPanel>
                         <Grid>
                         <ScrollViewer VerticalScrollBarVisibility="Visible" Height="700">
@@ -61,8 +58,7 @@
                             </GridView>
                         </ScrollViewer>
                     </Grid>
-                    </StackPanel>
-                
+                </StackPanel>
             </StackPanel>
         </Grid>
     </Frame>
